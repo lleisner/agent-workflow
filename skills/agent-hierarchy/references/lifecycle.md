@@ -2,6 +2,12 @@
 
 ## Start or resume
 
+For a newly onboarded project, accept the focused brief delivered by its temporary
+setup facilitator. Acknowledge ownership and the next useful human interaction
+once. Return unresolved setup defects to the facilitator; do not require the human
+to relay a transcript or reconstruct the setup. Ongoing execution belongs to EL
+after handoff, while substantial later setup changes can use a focused helper.
+
 1. Find the project agreement and the authoritative scope record.
 2. Establish role identity separately from the native session ID and task ID.
    Record scope, supervisor/children references, active occupant, authority,

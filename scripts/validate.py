@@ -8,7 +8,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
-for skill in sorted((ROOT / "skills").iterdir()):
+skills = sorted(p for p in (ROOT / "skills").iterdir() if p.is_dir())
+for skill in skills:
     doc = (skill / "SKILL.md").read_text()
     if not doc.startswith("---\n") or "\n---\n" not in doc[4:]:
         errors.append(str(skill) + ": missing frontmatter")
@@ -40,4 +41,4 @@ for skill in sorted((ROOT / "skills").iterdir()):
 if errors:
     print("\n".join(errors), file=sys.stderr)
     sys.exit(1)
-print("Validated 3 self-contained skill packages, references and Python syntax.")
+print(f"Validated {len(skills)} skill packages, bundled references and Python syntax.")

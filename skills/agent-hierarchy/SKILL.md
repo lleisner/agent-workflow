@@ -9,6 +9,16 @@ Keep role responsibilities stable and occupants replaceable. The project control
 record locations, authority and workspace conventions. Do not require a starter
 repository or fixed paths.
 
+## New project onboarding
+
+For a request to set up the complete workflow, with no assigned operational role,
+use the bundled agent-workflow guided entry point when available. Continue in the
+current conversation; do not ask the user to invoke a sequence of skills or write
+handoff prompts. Setup is a temporary facilitator duty, not automatically PL/EL.
+If used alone, guide the necessary mapping choices below and deliver the scoped
+role briefs yourself. An already assigned role reads its relevant records and
+continues work; it does not restart onboarding.
+
 ## Establish context
 
 Read the project's AGENTS.md and referenced workflow agreement. If missing,

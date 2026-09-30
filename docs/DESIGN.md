@@ -8,6 +8,27 @@ AGENTS.md is a short entry point into the project agreement, not a live task log
 Roles, branch responsibility, workspace allocation and merge authority are
 separate concepts.
 
+## Guided entry point
+
+One invocation of agent-workflow owns the onboarding walkthrough, composing the
+independent hierarchy, workspace and task capabilities internally. The user answers
+consequential project-specific questions; the agent discovers factual settings,
+performs setup and generates/delivers the handoffs. Users do not need to know the
+skill sequence or write informed prompts to transfer setup responsibility.
+
+The invoking agent normally acts as a temporary setup facilitator. This is a duty,
+not a seventh rank or an additional permanent supervisor. Leadership starts with
+fresh focused context after the setup. EL owns ongoing operations after handoff
+and can delegate later configuration work to a setup specialist.
+
+Setup asks one unresolved question at a time, with a recommendation and tradeoff,
+and reuses accepted decisions. It records a concise recovery checkpoint and
+resumes existing occupants/workspaces/grants on repeat invocation. Creation of
+the agreement alone is not completion: finish the authorized initial role handoff
+and orient the user, or explicitly identify the remaining blocker.
+
+## Role boundaries
+
 PL owns vision, EL execution planning, AC area alignment, TC a task deliverable,
 W implementation and S focused expertise. Human collaboration is principally
 with PL/EL and through AC for an area, with direct access to visible workers.

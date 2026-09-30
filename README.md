@@ -8,6 +8,7 @@ exercise judgment within explicit scope, permissions and resource allowances.
 
 | Skill | Use |
 | --- | --- |
+| agent-workflow | One guided setup/resume walkthrough, including workspace preparation and role handoff. |
 | agent-hierarchy | Establish, operate, split or resume PL, EL, AC, TC, W and S roles. |
 | agent-workspace | Adapt an existing project or prepare a practice workspace for the hierarchy. |
 | agent-task | Define, claim, report, review and integrate a bounded deliverable. |
@@ -20,7 +21,7 @@ project agreement. No orchestration service or MCP server is required.
 
 Ask Codex's skill installer:
 
-> Install agent-hierarchy, agent-workspace and agent-task from
+> Install agent-workflow, agent-hierarchy, agent-workspace and agent-task from
 > lleisner/agent-workflow, using their directories under skills/.
 
 Install a tested tag or commit on each machine when reproducibility matters.
@@ -37,12 +38,21 @@ Host-specific behavior must be checked on each supported platform.
 
 ## Start
 
-1. Invoke $agent-workspace in the intended project. Reuse its existing documents;
-   settle only missing or contradictory settings.
-2. Invoke $agent-hierarchy with a role and scope. Start small: combined PL+EL and
-   AC+TC roles are valid. The project agreement points to the relevant records.
-3. Use $agent-task for scoped deliverables. In a hierarchy a TC owns a task;
-   in a solo workflow the current agent or human can own it.
+In a fresh session in the intended project, invoke **$agent-workflow** once.
+The setup facilitator inspects the repository, guides only unresolved choices,
+prepares the agreed workspace and tracker, and starts or reconnects the authorized
+initial roles. It writes and delivers their focused handoffs and shows you which
+contact is ready for your next project conversation. You do not compose launch
+prompts or invoke the component skills in sequence.
+
+The setup facilitator is temporary; PL and EL receive settled context instead of
+inheriting the onboarding conversation. Repeat the same invocation to resume an
+interrupted setup without duplicating roles or renewing allowances.
+
+Install all four directories for this complete walkthrough. The three component
+skills can still be installed and used independently for existing role operations,
+workspace-only setup or solo task workflows. Existing project conventions remain
+configurable, and combined PL+EL or AC+TC roles are valid.
 
 Published plans and decisions have a canonical branch. Live task state and
 concise reports use GitHub issues/comments in the supplied starter workflow.

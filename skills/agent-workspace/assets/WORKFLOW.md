@@ -15,6 +15,14 @@ For each occupied scope, point to its existing record containing role ID,
 scope, supervisor, session ID, reporting destination, workspace and allowance.
 Use current summaries rather than whole conversation histories.
 
+## Setup and handoff
+
+During onboarding, record the temporary setup owner, settled mapping and any
+unresolved choice here or in an existing setup record. Identify the intended
+initial human contact and record the delivered handoff/acknowledgment by reference.
+The facilitator performs setup and prepares role briefs; users do not compose
+handoff prompts. Once accepted, EL owns operations and the setup duty ends.
+
 ## Authority
 
 Record the user's approved scope, start gate, integration gates and independent

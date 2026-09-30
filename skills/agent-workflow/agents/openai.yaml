@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Workflow"
+  short_description: "Guided workspace setup and agent-team handoff"
+  default_prompt: "Use $agent-workflow to guide me through setting up or resuming an agent team in this project."

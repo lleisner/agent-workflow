@@ -1,9 +1,26 @@
 # Validation status
 
-The v0.1.0 pilot package passed local/helper checks on 2026-09-30. The live
-model-based pilot is prepared but awaits its bounded resource grant. Unit tests
-establish helper behavior, not the quality of model judgment or reliability of
-an unattended hierarchy.
+The v0.1.0 helper package passed local checks on 2026-09-30. A subsequent live pilot
+reached leadership splitting and area planning, then entered a resource hold.
+Implementation/review/integration and the complete hierarchy remain untested.
+Unit tests establish helper behavior, not model judgment or unattended reliability.
+
+## Guided onboarding update
+
+The v0.2.0 instructions add one agent-workflow entry point. It composes the three
+existing capabilities through a temporary setup facilitator, unresolved-choice
+walkthrough, automatic role briefing and acknowledged handoff. Component skills
+remain independently usable. No new runtime service or model agents are added by
+this package update.
+
+Validation covers all four skill definitions and bundled references, plus the
+existing helper suite. Static walkthrough review covers a new project, adaptation
+of existing records, partially completed setup and an exhausted/missing grant:
+each keeps setup ownership with the facilitator instead of requiring a user-written
+EL prompt. This is instruction review, not a model-executed acceptance test.
+
+The guided entry point has not yet completed a live end-to-end walkthrough.
+The held pilot is not restarted by installing these instructions.
 
 ## Package and helper checks
 
@@ -39,6 +56,21 @@ independent session processed queued work after its viewer was resumed; unattend
 wake was not established. Active-work survival through detach was not established.
 Account quota was observable, but per-thread account credit usage was unavailable.
 These observations are version/host specific.
+
+## Subsequent pilot observations
+
+Independent leadership/area sessions and a PL/EL split were established. Native
+thread messaging resumed an idle session after its CLI viewer released writer
+ownership. Another interface initially encountered an active-writer conflict;
+queue acceptance had not established that direct attachment would work.
+
+Resource control failed during planning: default session-list filtering omitted
+registered native-created sessions, and soft limits were exceeded before all
+roles checkpointed. Collection by exact participant IDs exposed the missing
+usage. Guided setup now requires the explicit registry and includes setup,
+observation and closeout in resource planning. These instructions do not amount
+to a tested automatic budget enforcement fix. Human direct input, active detach,
+working AC/TC splitting, review/integration and recovery still need live validation.
 
 ## Required checks before describing the pilot as complete
 

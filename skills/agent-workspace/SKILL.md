@@ -9,6 +9,12 @@ Inspect before creating. Read AGENTS.md, README, the current plan and developmen
 instructions; check Git status, branch, remotes and existing worktrees. Preserve
 ongoing work and ownership. Reuse existing documents and tracking conventions.
 
+When called during the bundled agent-workflow walkthrough, perform this setup
+phase and return its resolved mapping to the facilitator; the user does not need
+to invoke this skill separately. For a standalone workspace request, guide the
+missing choices here and complete the requested setup. Do not assign technical
+onboarding to PL or EL merely because they will use the result.
+
 ## Establish the project agreement
 
 Read [the agreement guide](references/agreement.md). Identify the actual goals,
@@ -46,6 +52,9 @@ settings, session operations and validation commands. Missing start authority or
 allowance must be resolved before dispatch. Missing merge permission means human
 approval. Treat runtime capabilities as observed facts or explicit unknowns.
 
-Provide a short setup result with record references and the next action. The
+Provide a short setup result with record references and the next action. If the
+request also includes a running hierarchy and the bundled agent-workflow skill
+is available, continue its walkthrough internally through startup and handoff.
+Do not end by asking the user to compose a launch prompt. The
 companion agent-hierarchy and agent-task skills are optional independent consumers
 of this agreement.
