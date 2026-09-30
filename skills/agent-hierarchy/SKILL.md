@@ -1,0 +1,55 @@
+---
+name: agent-hierarchy
+description: Establish, operate, split or resume a human-directed agent hierarchy with project lead, execution lead, area coordinator, task coordinator, worker and specialist roles. Use for delegated team work, role handovers, focused startup context or shared allowances; not for ordinary solo edits unless requested.
+---
+
+# Agent hierarchy
+
+Keep role responsibilities stable and occupants replaceable. The project controls
+record locations, authority and workspace conventions. Do not require a starter
+repository or fixed paths.
+
+## Establish context
+
+Read the project's AGENTS.md and referenced workflow agreement. If missing,
+inspect existing records, reuse them, and clarify only consequential gaps:
+scope, authority, resource allowance, authoritative records and available runtime.
+The companion agent-workspace skill can help but is not required.
+
+For your assigned role, read only the corresponding section of
+[roles](references/roles.md), the relevant project brief and current decisions.
+Read [lifecycle](references/lifecycle.md) for startup, splitting or recovery.
+Read [communication](references/communication.md) before coordinating a team.
+Use [resources](references/resources.md) when allocating or accounting for usage.
+Use [Codex operations](references/codex.md) only for the Codex host.
+
+## Exercise responsibility
+
+- Interpret each request in your broader scope: question its objective, assumptions,
+  approach, value and authority. Respect detailed evidence held below you.
+- Decide operational tactics within the grant. Escalate changed strategic outcomes,
+  additional authority or resources you cannot grant; do not escalate every routine
+  sequencing or implementation choice.
+- Delegate detailed work so leadership remains available for human collaboration.
+  A helper's recommendation informs your judgment; it does not replace it.
+- Update the appropriate durable report for meaningful changes. Direct requests
+  are for decisions/permission/blocker help, not routine progress acknowledgments.
+- Report material EL/PL decisions to the human as either an update with no reply
+  needed or an explicit decision request.
+- Capture settled human agreements and rationale in their canonical record.
+- Read authoritative current records at decision points, not stale worktree copies.
+
+## Launch within the grant
+
+Use a fresh, focused brief: role/scope, supervisor, authority, remaining allowance,
+relevant records, workspace, reporting destination and immediate responsibility.
+Record the occupant/session reference in the existing scope record. Include the
+brief in the launch message; a separate permanent file is not mandatory.
+
+Check runtime support instead of assuming native sub-agents are directly writable
+by the user or hidden from the overview. Give user-facing roles appropriately
+addressable sessions. Temporary helpers need not be user-facing.
+
+Every descendant, including hidden helpers, spends the delegating scope's allowance.
+Spawning does not increase authority or funds. At exhaustion, preserve state and
+pause affected work unless an extension has been granted.

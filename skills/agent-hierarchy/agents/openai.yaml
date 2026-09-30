@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Hierarchy"
+  short_description: "Coordinate roles, delegation and shared allowances"
+  default_prompt: "Use $agent-hierarchy to establish the smallest useful team for this project's agreed work."

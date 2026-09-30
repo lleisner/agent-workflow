@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "project": {"name": "Practice", "prefix": "PCT", "repository": "OWNER/REPO"},
+  "records": {
+    "canonical_ref": "origin/dev",
+    "overview": "docs/PLAN.md",
+    "decisions": "docs/DECISIONS.md",
+    "agreement": "docs/WORKFLOW.md",
+    "roles": "docs/WORKFLOW.md#roles",
+    "tasks": "github",
+    "reports": "editable-issue-comments"
+  },
+  "branches": {"integration": "dev", "stable": "main", "worktree_root": "../practice-worktrees"},
+  "authority": {
+    "status": "example-not-a-grant",
+    "start": "approved-area-scope",
+    "worker_to_task": "coordinator-within-grant",
+    "task_to_area": "user",
+    "area_to_project": "user",
+    "promotion": "user"
+  },
+  "resources": {
+    "ledger": ".agent-workflow-local/allowance.json",
+    "model_policy": "agree-at-pilot-setup",
+    "dynamic_subscription": false
+  },
+  "runtime": {"adapter": "codex", "visible_sessions": "independently-addressable", "helpers": "native-subagents"}
+}

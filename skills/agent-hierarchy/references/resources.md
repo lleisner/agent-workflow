@@ -1,0 +1,76 @@
+# Shared resource allowances
+
+Use the project's existing accounting mechanism when available. The optional
+scripts/allowance.py helper provides local persistent accounting without a model
+call. Its JSON ledger is private host state, not a second task tracker. Record
+grants and significant decisions in the project's canonical scope records and
+reference the ledger for observations.
+
+The ledger measures estimated credits using supplied model rates per million
+tokens. Configure uncached input, cached input and output rates and a documented
+source/date. Rates are estimates, not actual charges or an exact subscription
+percentage. The helper never invents a subscription token limit.
+
+Input totals INCLUDE cached input. Output totals INCLUDE reasoning output.
+Bill each category once:
+
+    (input - cached_input) * input_rate
+    + cached_input * cached_rate
+    + output * output_rate
+
+Apply the configured speed multiplier once. Fix model and speed per registered
+session in v1; use a new session for a different model/tier so cumulative snapshots
+do not misprice mixed usage. This limitation is explicit, not exact attribution
+of an unobserved model change.
+
+## Commands
+
+The ledger helper uses local file locking on macOS/Linux, not a shared network
+filesystem. A rate file has this shape (numbers below are deliberately synthetic):
+
+~~~json
+{"source":"synthetic test units, not prices","date":"2026-09-30",
+ "models":{"example-model":{"input":1,"cached_input":0.1,"output":4}}}
+~~~
+
+~~~sh
+python3 scripts/allowance.py init --ledger /private/path/allowance.json \
+  --scope project --limit 100 --rates /private/path/rates.json
+python3 scripts/allowance.py allocate --ledger /private/path/allowance.json \
+  --parent project --scope EL1 --limit 80 --decision "link to grant"
+python3 scripts/allowance.py observe --ledger /private/path/allowance.json \
+  --scope EL1 --session THREAD_ID --model MODEL --input 1000 \
+  --cached-input 500 --output 100 --reasoning-output 25
+python3 scripts/allowance.py report --ledger /private/path/allowance.json
+~~~
+
+Register each session with the register command before starting work (same
+scope/session/model/speed arguments as observe, without token counters).
+Observe also registers on first import. Register each session in its spending scope.
+A helper can spend directly in its
+delegator's scope or receive a child scope allocated from it. Never observe the
+same session separately in both parent and child. Descendant spending rolls up.
+
+Allocation reserves part of a parent's allowance. Unallocated capacity is available
+for the parent's own work. The helper rejects over-allocation and limit reductions
+below already spent/reserved resources. It always records actual observed overrun,
+even when an agent has exceeded a limit. It does not stop native sessions.
+
+Use set-limit with the decision reference for an authorized adjustment. Release
+unspent child allowance before assigning it elsewhere. Parent budget increases
+require the appropriate grant, not merely the ability to run this script.
+
+Snapshots are cumulative and idempotent. Counter decreases or changes of scope,
+model or speed for an existing session are rejected. Replaced/closed helpers
+remain in the ledger. The report distinguishes spending, reservations and
+unallocated capacity. Refresh observations at meaningful checkpoints before
+resource decisions. Missing observations remain an explicit unknown.
+
+At 80% or a forecast shortfall, request critical reassessment. At exhaustion
+checkpoint and pause the affected work until an extension exists. Keep this a
+skill behavior; no hard runtime enforcement is claimed.
+
+For native JSONL counters, scripts/session.py usage --file PATH prints the latest
+recognized cumulative counter record. Only pass logs of authorized workflow
+sessions. Associate its thread ID/model with the correct scope before importing.
+The counter adapter fails if no recognized cumulative record exists.

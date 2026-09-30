@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Task"
+  short_description: "Deliver scoped work through records and review"
+  default_prompt: "Use $agent-task to take this agreed deliverable through the project's workflow."

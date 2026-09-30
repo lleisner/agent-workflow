@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Workspace"
+  short_description: "Map project records, authority and workspaces"
+  default_prompt: "Use $agent-workspace to adapt this repository to the agreed agent workflow."
