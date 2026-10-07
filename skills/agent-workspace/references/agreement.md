@@ -13,7 +13,7 @@ Answer:
 | Authority | Who may define/start work, allocate resources, review and integrate at each boundary |
 | Records | Canonical location AND branch/ref for published docs; task/report/role locations |
 | Runtime | How to create/address/name/wake sessions; user-facing vs helper visibility |
-| Resources | Fixed allowance ledger/owner, model/rate settings, reporting and stop behavior |
+| Resources | Bounded-work allowances and accounting owner, model/rate settings, explicit user limits; optional time-window project allocation |
 | Git | Integration/stable targets, worktree root, ownership and evidence/check commands |
 | Recovery | Current occupant references, checkpoint locations and workspace preservation |
 

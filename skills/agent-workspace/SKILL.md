@@ -19,7 +19,7 @@ onboarding to PL or EL merely because they will use the result.
 
 Read [the agreement guide](references/agreement.md). Identify the actual goals,
 record locations, role ownership, canonical document reference, task tracker,
-integration targets, authority and allowances. Ask about consequential gaps only.
+integration targets, authority and resource policy. Ask about consequential gaps only.
 The hierarchy skill needs these answers, not particular filenames.
 
 For a new synthetic workspace, adapt assets/project.json and
@@ -47,9 +47,10 @@ checkout; leaf directories are worktrees.
 
 ## Ready to use
 
-Record the resolved mapping, review/integration gates, initial model/allowance
-settings, session operations and validation commands. Missing start authority or
-allowance must be resolved before dispatch. Missing merge permission means human
+Record the mapping, review/integration gates, model/resource policy, session
+operations and validation commands. Resolve missing start authority and a bounded
+allowance before autonomous task dispatch. Do not require a project-lifetime or
+setup allowance merely to prepare the workspace or start interactive leadership. Missing merge permission means human
 approval. Treat runtime capabilities as observed facts or explicit unknowns.
 
 Provide a short setup result with record references and the next action. If the

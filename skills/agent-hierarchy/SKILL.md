@@ -23,7 +23,10 @@ continues work; it does not restart onboarding.
 
 Read the project's AGENTS.md and referenced workflow agreement. If missing,
 inspect existing records, reuse them, and clarify only consequential gaps:
-scope, authority, resource allowance, authoritative records and available runtime.
+scope, authority, resource policy, authoritative records and available runtime.
+Setup and ordinary human/leadership conversations have no required numeric cap.
+Allowances belong to bounded autonomous work, not persistent role identities or
+an indefinite project. Honor limits the user actually set.
 The companion agent-workspace skill can help but is not required.
 
 For your assigned role, read only the corresponding section of
@@ -51,7 +54,7 @@ Use [Codex operations](references/codex.md) only for the Codex host.
 
 ## Launch within the grant
 
-Use a fresh, focused brief: role/scope, supervisor, authority, remaining allowance,
+Use a fresh, focused brief: role/scope, supervisor, authority, applicable resource policy,
 relevant records, workspace, reporting destination and immediate responsibility.
 Record the occupant/session reference in the existing scope record. Include the
 brief in the launch message; a separate permanent file is not mandatory.
@@ -60,6 +63,14 @@ Check runtime support instead of assuming native sub-agents are directly writabl
 by the user or hidden from the overview. Give user-facing roles appropriately
 addressable sessions. Temporary helpers need not be user-facing.
 
-Every descendant, including hidden helpers, spends the delegating scope's allowance.
-Spawning does not increase authority or funds. At exhaustion, preserve state and
-pause affected work unless an extension has been granted.
+For bounded autonomous work, every descendant, including hidden helpers, spends
+the delegating work scope's allowance. Spawning does not increase authority or
+funds. At exhaustion, preserve state and pause affected work without an extension.
+
+## Improve from use
+
+When recurring friction appears, record its consequence, workaround and proposed
+small correction in the existing coordination record. Keep project conventions
+in the project and reusable mechanics in the skill. Discuss material workflow
+changes with the user; continue independent work around non-blocking issues.
+Do not create a separate audit, agent or report for every completed task.

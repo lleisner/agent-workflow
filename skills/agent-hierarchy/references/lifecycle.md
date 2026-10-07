@@ -11,7 +11,7 @@ after handoff, while substantial later setup changes can use a focused helper.
 1. Find the project agreement and the authoritative scope record.
 2. Establish role identity separately from the native session ID and task ID.
    Record scope, supervisor/children references, active occupant, authority,
-   remaining allowance and workspace/report locations in the existing record.
+   applicable resource policy or remaining work allowance and workspace/report locations in the existing record.
 3. Read the relevant brief, settled decisions, current summary and next action.
    Load evidence progressively. Ask a focused question for missing context.
 4. Reconcile actual worktree, GitHub and budget state before resuming. A disconnected
@@ -54,7 +54,7 @@ procedure does not require a new lock service or a project-wide pause.
 
 Prefer replacement at a meaningful boundary, normally after live subordinate work
 has finished. Preserve references to current commits/PRs, unresolved questions,
-remaining allowance and next action. Canonical records are the handoff; add only
+applicable resource policy or remaining work allowance and next action. Canonical records are the handoff; add only
 missing facts. Retire old routing deliberately so two occupants do not both act
 as owner.
 

@@ -12,7 +12,7 @@ role coordination records; keep task state and assignment reports there.
 ## Roles
 
 For each occupied scope, point to its existing record containing role ID,
-scope, supervisor, session ID, reporting destination, workspace and allowance.
+scope, supervisor, session ID, reporting destination, workspace and applicable resource policy.
 Use current summaries rather than whole conversation histories.
 
 ## Setup and handoff
@@ -31,8 +31,10 @@ is governed by its own grant; PL is not automatically the final merger.
 
 ## Resources and runtime
 
-Record fixed allowances, model/rate choices, ledger location, observation owner
-and threshold behavior. Include all helpers. State which runtime operations have
+Setup and ordinary leadership conversations have no required numeric cap. Record
+allowances for bounded autonomous work, model/rate choices, ledger location,
+observation owner and threshold behavior. Include all helpers within that work.
+A time-window project allocation is optional; its reset never refills task limits. State which runtime operations have
 actually been tested, which need human participation, and the host's awake setup.
 
 ## Workspaces and delivery

@@ -94,6 +94,11 @@ PL is not a mandatory final technical integration stage. EL or a delegated
 integrator performs promotion under the chosen gates. Read-only helpers need not
 receive worktrees.
 
+Setup and ordinary human/leadership conversations have no mandatory numeric cap.
+There is no default project-lifetime budget. Optional time-window project
+allocations remain distinct from cumulative task spending. Explicit user limits
+apply only to their stated scope.
+
 Task allowances are fixed and cumulative. Model/category-weighted estimated
 credits are not exact charges or subscription shares. Count own and descendant
 usage once; never add cached input or reasoning output again. Allocate from
@@ -108,7 +113,11 @@ by the initial fixed-accounting helper.
 
 ## Pilot and later work
 
-Use synthetic work and the user's existing subscription. Validate communication,
+Pilot the workflow in useful authorized work; a separate synthetic project is
+optional. Keep validation inputs non-sensitive and use the authorized billing
+mode. Record recurring friction in existing coordination records, distinguish
+project conventions from reusable mechanics and propose focused corrections.
+Validate communication,
 direct input, unattended wake, detach survival, role splitting and full usage
 attribution before asserting them. A strategy encoded in a skill is not proof
 that a runtime supports it. Automatic adoption of a departed coordinator's live

@@ -1,6 +1,10 @@
 {
   "schema_version": 1,
-  "project": {"name": "Practice", "prefix": "PCT", "repository": "OWNER/REPO"},
+  "project": {
+    "name": "Practice",
+    "prefix": "PCT",
+    "repository": "OWNER/REPO"
+  },
   "records": {
     "canonical_ref": "origin/dev",
     "overview": "docs/PLAN.md",
@@ -10,7 +14,11 @@
     "tasks": "github",
     "reports": "editable-issue-comments"
   },
-  "branches": {"integration": "dev", "stable": "main", "worktree_root": "../practice-worktrees"},
+  "branches": {
+    "integration": "dev",
+    "stable": "main",
+    "worktree_root": "../practice-worktrees"
+  },
   "authority": {
     "status": "example-not-a-grant",
     "start": "approved-area-scope",
@@ -20,9 +28,13 @@
     "promotion": "user"
   },
   "resources": {
-    "ledger": ".agent-workflow-local/allowance.json",
-    "model_policy": "agree-at-pilot-setup",
+    "ledger": ".agent-workflow-local/allowances/<work-scope>.json",
+    "model_policy": "inherit-user-settings-unless-explicitly-agreed",
     "dynamic_subscription": false
   },
-  "runtime": {"adapter": "codex", "visible_sessions": "independently-addressable", "helpers": "native-subagents"}
+  "runtime": {
+    "adapter": "codex",
+    "visible_sessions": "independently-addressable",
+    "helpers": "native-subagents"
+  }
 }

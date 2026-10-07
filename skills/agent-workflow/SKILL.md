@@ -37,8 +37,9 @@ The three component skills remain independently usable.
 
 Prepare the agreed project setup, verify the relevant capabilities, generate and
 deliver the role briefs, and obtain a bounded acknowledgment from the intended
-initial contact. Use existing launch authority and resources; resolve missing
-grants in this walkthrough rather than silently renewing them.
+initial contact. Setup and ordinary human/leadership conversations need no numeric
+allowance by default. Resolve actual launch authority or explicitly imposed limits
+here; never invent a project-lifetime cap or reuse an unrelated pilot budget.
 
 Reuse existing occupants when resuming setup. Start only the roles needed now,
 then let leadership grow the team. Explain who the user should talk to and why,

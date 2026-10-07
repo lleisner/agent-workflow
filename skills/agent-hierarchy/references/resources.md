@@ -1,4 +1,23 @@
-# Shared resource allowances
+# Bounded-work allowances
+
+A project and its persistent leadership do not need lifetime token budgets. Setup
+and ordinary conversations have no mandatory numeric cap; respect any explicit
+user limit. Put allowances on autonomous tasks, initiatives or investigations,
+including their coordination and helpers. An unrelated experiment's spending or
+hold does not govern a new project.
+
+A weekly project allocation is optional and separate from a task's cumulative
+allowance. Renewing a time window must not refill a task or erase prior usage.
+Record the window and metric explicitly; estimated credits are not an exact
+subscription percentage. Dynamic allocation remains optional.
+
+Without a numeric cap, record relevant usage without inventing a fake/infinite
+ledger limit. The fixed-limit helper below is only for bounded grants. Use one
+ledger rooted at the task/initiative when there is no parent project grant.
+Do not charge an entire ongoing leadership conversation to each new task: use
+focused sessions for bounded investigations, or attributable deltas with an
+accounting method that supports them. This helper imports whole-session totals.
+
 
 Use the project's existing accounting mechanism when available. The optional
 scripts/allowance.py helper provides local persistent accounting without a model
@@ -35,11 +54,11 @@ filesystem. A rate file has this shape (numbers below are deliberately synthetic
 
 ~~~sh
 python3 scripts/allowance.py init --ledger /private/path/allowance.json \
-  --scope project --limit 100 --rates /private/path/rates.json
+  --scope PCT021 --limit 100 --rates /private/path/rates.json
 python3 scripts/allowance.py allocate --ledger /private/path/allowance.json \
-  --parent project --scope EL1 --limit 80 --decision "link to grant"
+  --parent PCT021 --scope W1 --limit 80 --decision "link to grant"
 python3 scripts/allowance.py observe --ledger /private/path/allowance.json \
-  --scope EL1 --session THREAD_ID --model MODEL --input 1000 \
+  --scope W1 --session THREAD_ID --model MODEL --input 1000 \
   --cached-input 500 --output 100 --reasoning-output 25
 python3 scripts/allowance.py report --ledger /private/path/allowance.json
 ~~~

@@ -37,7 +37,7 @@ Use the workspace agreement's concerns as a map, not a mandatory questionnaire:
 | Purpose | Project direction and the user's next useful conversation |
 | Records | Existing goals/decisions, canonical published reference, task/report homes |
 | Authority | Initial setup/launch scope and start/review/integration gates |
-| Resources | Setup plus startup allowance, ongoing allocation/observation owner, billing mode |
+| Resources | Billing mode, bounded-work allowance policy, applicable explicit limits and observation owner |
 | Workspaces | Actual integration targets, ownership and worktree organization |
 | Initial contact | Combined PL+EL or separate contacts, according to the project and user |
 
@@ -83,16 +83,21 @@ yourself. A necessary UI action is different from asking the user to write a rol
 brief. Do not promise human input, detach survival or automatic wake from a
 successful name change or queue operation.
 
-Before model work, establish the participant registry and observation owner.
+Record the initial occupants; add helpers and replacements when launched. For
+bounded autonomous work, establish its accounting scope and observation owner.
 Record each launched session ID immediately, including helpers and replacements.
 Collect by those IDs; default session listings can omit native-created sessions.
-Keep prior spending and reserve capacity for startup, in-flight work and closeout.
-Use a fresh focused observer when ongoing monitoring would repeatedly reload a
-long setup/design history. Additional observers also spend the shared allowance.
+Preserve cumulative spending within each actual grant, including in-flight work
+and closeout. Do not instantiate an observer solely for setup: lightweight usage
+collection is sufficient. If ongoing observation needs an agent, give it fresh
+focused context and include its cost in the work it supports.
 
 Lightweight local checks do not imply permission for a multi-agent experiment.
 Use already authorized launch resources; ask for a missing grant as part of this
-walkthrough. An exhausted or held pilot stays held until an extension exists.
+walkthrough. An explicitly exhausted scope stays held until its grant changes.
+Do not carry that hold into unrelated work or require a numeric setup/project cap.
+Starting an interactive leadership role is distinct from dispatching autonomous
+work, which needs a bounded allowance. Weekly project allocations are optional.
 Describe any test not performed as unverified.
 
 ## 5. Create or reconnect the initial contact
@@ -111,7 +116,8 @@ Generate the handoff from canonical records. Include only:
 - Assigned role/scope, relevant supervision and current occupant references.
 - The settled goal or the next unresolved project question for the human.
 - Authoritative record locations and the actual assigned workspace.
-- Current start/review/integration authority and remaining allowance, with sources.
+- Current start/review/integration authority and applicable resource policy, with
+  grant sources. State when no numeric cap applies to the interactive role.
 - Reporting/accounting ownership, relevant runtime limitations and immediate action.
 
 Deliver this brief yourself. The recipient acknowledges its role, records,

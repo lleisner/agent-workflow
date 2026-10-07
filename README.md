@@ -65,7 +65,10 @@ See [validation](docs/VALIDATION.md) for tested behavior and open runtime checks
 The skills express authority and budget rules; helpers do not enforce every
 action the agent or its tools can take.
 
-Fixed estimated-credit accounting includes all subordinate and helper usage.
+Allowances bound autonomous work and include its coordination and helper usage.
+Setup and ordinary leadership conversations have no mandatory numeric cap; a
+project-wide time-window allocation is optional. Estimated-credit accounting is
+not an exact subscription percentage.
 Dynamic subscription optimization, extensive specialist libraries, automatic
 skill improvement and a separate starter-template repository are later work.
 
