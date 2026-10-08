@@ -1,4 +1,4 @@
-# Startup, splitting and recovery
+# Startup, planning, splitting and recovery
 
 ## Start or resume
 
@@ -43,6 +43,36 @@ Example names:
 
 Use the project's stable prefix and short description. Add the project name only
 when the interface does not already group sessions by project.
+
+## From area scoping to coordinated work
+
+An AC's planning responsibility continues beyond identifying the scope:
+
+1. State your assessment of readiness and summarize outcomes, exclusions,
+   constraints and remaining uncertainties. Confirm scope when needed; reuse
+   existing explicit user confirmation instead of asking again.
+2. Prepare a reviewable TC proposal, using a table or dependency graph: bounded
+   deliverables and acceptance, priorities with rationale, dependencies, possible
+   parallel work, shared interfaces/file ownership, integration order and cross-area
+   needs. Turn unresolved technical questions into early bounded deliverables or
+   explicit gates; do not silently settle them or investigate without authority.
+3. Surface proposed priorities/dependencies to EL for broader review through the
+   existing reporting mechanism; request a decision directly when needed. Keep
+   the summary at EL's scope and link the proposal. EL addresses wider conflicts,
+   not a repetition of user choices already confirmed with AC. Cross-area work is
+   coordinated above TC; do not give one TC authority over several areas.
+4. State the proposed launch scope and applicable resource/authority needs. Scope
+   confirmation and planning alone are not dispatch authorization. Apply the
+   project's actual gates and existing grants: if already covered, proceed; if
+   not, present the concrete proposal to the designated approver (the user where
+   required) and request only the missing decision. Add no universal EL approval
+   gate or fixed TC count. Do not reset spending or request a new allowance or
+   permission when the existing grant already covers the proposed work.
+5. Once authorized, dispatch and coordinate within the agreed plan, keep EL
+   informed and escalate material changes. Close the planning phase with the
+   next decision or authorized action, rather than stopping at "scope is clear."
+
+Use the existing area/task records; no extra planning registry is needed.
 
 ## Split a combined role
 

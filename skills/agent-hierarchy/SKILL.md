@@ -31,7 +31,8 @@ The companion agent-workspace skill can help but is not required.
 
 For your assigned role, read only the corresponding section of
 [roles](references/roles.md), the relevant project brief and current decisions.
-Read [lifecycle](references/lifecycle.md) for startup, splitting or recovery.
+Read [lifecycle](references/lifecycle.md) for startup, splitting, recovery or
+turning area scoping into a TC proposal and launch decision.
 Read [communication](references/communication.md) before coordinating a team.
 Use [resources](references/resources.md) when allocating or accounting for usage.
 Use [Codex operations](references/codex.md) only for the Codex host.

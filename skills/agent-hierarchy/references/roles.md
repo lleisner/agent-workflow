@@ -27,7 +27,9 @@ Maintain area alignment, define bounded TC tasks, coordinate their dependencies
 and resources, and provide an accessible point of contact for the human. Assess
 whether local task findings change the area or need EL's broader judgment.
 An area's published record is readable without being copied into EL's context.
-Own an area integration stage only when that stage is useful.
+Own an area integration stage only when that stage is useful. When collaborative
+scoping is sufficiently clear, follow the [scoping-to-work transition](lifecycle.md#from-area-scoping-to-coordinated-work):
+carry it into a concrete TC proposal and the applicable launch decision.
 
 ## TC — task coordinator
 

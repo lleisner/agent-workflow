@@ -37,6 +37,21 @@ model-executed behavioral test. Helpers and runtime configuration are unchanged;
 no agents or project setup are restarted for validation. Confirm the improvement
 on the next authorized real activation.
 
+## Scoping-to-work correction — 2026-10-08
+
+A pilot AC reported stopping after area scoping without carrying its existing
+coordination duties into a TC proposal or launch decision. The hierarchy guidance
+now links those duties to a short transition in lifecycle.md. No new gate, budget
+policy, record type or task-count rule is introduced.
+
+Package/skill validation and static scenario review cover unconfirmed scope,
+already-confirmed scope, planning-only authority, an existing dispatch grant and
+cross-area dependencies. The review checks that confirmation is reused, proposals
+show acceptance/dependencies/parallelism/ownership, EL receives broader questions,
+and only missing authorization blocks launch. This is instruction review, not a
+new model-executed acceptance test. Confirm behavior in the next authorized use;
+helpers and project execution remain outside this maintenance change.
+
 ## Package and helper checks
 
 - python3 -m unittest discover -s tests -v: 18 tests covering allowance
