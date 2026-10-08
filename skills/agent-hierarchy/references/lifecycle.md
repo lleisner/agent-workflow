@@ -106,3 +106,19 @@ Do not require automatic adoption of live workers in the pilot. If a coordinator
 is lost mid-task, involve the human in recovery. Account for all earlier sessions;
 replacement does not renew spending. Preserve uncommitted artifacts separately:
 documentation alone does not transport a worktree to another host.
+
+When cleanup is authorized, make it part of closeout instead of leaving stale
+roles for the human to discover. Confirm accepted/integrated results, preserved
+reports/evidence and final usage, no pending review/request/recovery duty, and no
+active work in the affected native descendants. Mark the occupant retired in the
+existing registry and preserve its session ID. Prefer reversible session archiving;
+permanent deletion needs the project's explicit retention/deletion authority.
+Use existing cleanup grants; request only a missing decision with a concrete list.
+
+Worktrees and sessions are separate resources. Remove only owned, unused worktrees
+after checking tracked, untracked and ignored artifacts and confirming relevant
+changes are retained at the agreed integration target. Use normal Git worktree
+removal, not force removal; preserve unique evidence or unresolved work. Local or
+remote branch deletion is a separate scoped choice. Do not remove a shared area/
+project worktree just because one occupant's duty ended. Record cleanup outcomes
+concisely in the existing closeout report, including anything deliberately retained.

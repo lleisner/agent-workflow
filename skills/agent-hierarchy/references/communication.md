@@ -24,7 +24,10 @@ to the completed report, rather than a repeated status narrative.
 
 When coordinating or answering a human's question, refresh relevant current
 summaries. At the end of a work turn, check for pending requests and actionable
-completion at your scope. Use supported runtime completion events where available.
+completion at your scope, then apply the entry point's responsibility loop: act,
+delegate, request the missing decision, or establish a genuine waiting/completion
+condition. On a reply or completion event, reassess the next action instead of
+merely acknowledging receipt. Use supported runtime completion events where available.
 Do not assume a GitHub comment wakes a sleeping model. If the host needs a wake
 operation, use the tested route; do not substitute continuous model polling.
 

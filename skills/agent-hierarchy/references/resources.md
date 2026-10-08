@@ -42,6 +42,28 @@ session in v1; use a new session for a different model/tier so cumulative snapsh
 do not misprice mixed usage. This limitation is explicit, not exact attribution
 of an unobserved model change.
 
+## Speed policy
+
+Use the project's agreed policy. A conservative default is Standard for workers,
+helpers and background coordination, including most TC work. Fast can be useful
+for interactive PL/EL conversations, occasional AC/TC conversations or work that
+EL explicitly prioritizes within its authority and allowance. Rank alone does not
+make every background turn urgent. Keep model/reasoning choice separate from speed.
+
+Specify and verify the intended tier through supported host controls; a prompt
+requesting Standard is not a runtime setting. Do not assume children inherit the
+intended tier or change the account-wide default to configure one child. If the
+launch tool lacks the control, use a supported route or surface that limitation
+before launching costly work. See [Codex operations](codex.md).
+
+Fast can consume subscription capacity/credits at a higher rate without generating
+more tokens. Check the current provider rates for the user's billing mode and
+account for the tier once. Switching tiers is technically possible on some hosts,
+but this package's whole-session ledger cannot attribute mixed-tier usage: keep
+registered work sessions at their recorded tier, or use a separate focused session
+or an accounting method that supports attributable segments. Do not silently
+reprice the entire history or replace leadership on every human interaction.
+
 ## Commands
 
 The ledger helper uses local file locking on macOS/Linux, not a shared network

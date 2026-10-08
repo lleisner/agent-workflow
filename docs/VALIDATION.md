@@ -52,6 +52,35 @@ and only missing authorization blocks launch. This is instruction review, not a
 new model-executed acceptance test. Confirm behavior in the next authorized use;
 helpers and project execution remain outside this maintenance change.
 
+## Continuation, speed and closeout correction — 2026-10-08
+
+Pilot feedback generalized passive scoping into a problem across ranks: reporting
+known next steps without acting, delegating or requesting the missing decision.
+The entry point now requires that transition while preserving actual waiting,
+completion, discussion-only scope, authority and allowance boundaries. Speed
+policy defaults background work to Standard, with explicit priority exceptions.
+Closeout guidance separates reversible session archiving, permanent deletion and
+safe worktree removal under the project's actual cleanup grant.
+
+Package/skill validation and static scenario review cover authorized dispatch,
+missing approval, planning-only work, completed review needing integration,
+waiting children, exhausted allowance, completed scope, Fast inheritance unknown,
+mixed-tier accounting and a stale-looking parent with live descendants. This is
+instruction review, not a fresh model-executed test of autonomous continuation.
+
+A bounded runtime probe on Codex CLI 0.160.0 created two ephemeral threads without
+starting model turns. `thread/start` returned `default` for Standard and `priority`
+for requested `fast`; `thread/settings/update` and its notification confirmed a
+change back to `default`. The probe changed no existing session or global setting.
+It verifies per-thread configuration, not inference speed/cost, reattachment
+persistence or tier inheritance through native agent-launch wrappers. Those
+wrappers currently expose no per-call service-tier argument.
+
+Official app-server documentation, the locally generated schema and CLI help
+expose archive/unarchive and permanent deletion, including descendant effects. No real
+sessions, branches or worktrees were retired to validate those capabilities.
+Runtime cleanup behavior remains untested by this package.
+
 ## Package and helper checks
 
 - python3 -m unittest discover -s tests -v: 18 tests covering allowance

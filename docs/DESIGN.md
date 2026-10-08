@@ -43,6 +43,12 @@ Every supervisor assesses whether a subordinate's approach/request makes sense
 in its broader context. Agreement is a valid outcome; critical judgment does not
 require manufacturing objections or absorbing all subordinate detail.
 
+Every rank carries known work into an authorized action/delegation or a concrete
+request for the missing decision. A status summary alone does not fulfill an
+unfinished responsibility. Genuine waiting, explicit pause, exhausted allowance
+and completion are valid stopping conditions; no continuous polling or invented
+work is required.
+
 An initiative can span areas. A numbered task belongs to one area and one TC.
 Worker assignments belong beneath that task. Cross-area decisions belong above
 TC. Operational sequencing, interfaces, parallelism and investigations remain

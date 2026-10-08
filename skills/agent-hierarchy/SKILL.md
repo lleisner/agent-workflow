@@ -31,8 +31,8 @@ The companion agent-workspace skill can help but is not required.
 
 For your assigned role, read only the corresponding section of
 [roles](references/roles.md), the relevant project brief and current decisions.
-Read [lifecycle](references/lifecycle.md) for startup, splitting, recovery or
-turning area scoping into a TC proposal and launch decision.
+Read [lifecycle](references/lifecycle.md) for startup, splitting, recovery,
+closeout or turning area scoping into a TC proposal and launch decision.
 Read [communication](references/communication.md) before coordinating a team.
 Use [resources](references/resources.md) when allocating or accounting for usage.
 Use [Codex operations](references/codex.md) only for the Codex host.
@@ -53,10 +53,33 @@ Use [Codex operations](references/codex.md) only for the Codex host.
 - Capture settled human agreements and rationale in their canonical record.
 - Read authoritative current records at decision points, not stale worktree copies.
 
+## Carry responsibility forward
+
+At every rank, after an agreement, finding, review, completion or resolved blocker,
+identify what remains to fulfill your assigned responsibility. Before yielding:
+
+- Perform the next authorized action or delegate a concrete assignment. A plan,
+  solution list or status report is not completion while an actionable next step
+  remains. This includes preparing the proposal needed for an actual approval.
+- If progress needs a decision, information, permission or allowance, send a
+  concrete request with your recommendation to the responsible human/supervisor.
+  Reuse settled decisions and existing grants; continue independent authorized work.
+- Wait when no useful authorized action remains: delegated work or a dependency
+  is pending, a concrete question/approval is unanswered, an explicit pause applies,
+  or the allowance is exhausted. Record what is awaited and what resumes the work.
+  When the responsibility is fulfilled, close it rather than inventing more scope.
+
+Respect discussion-only scope and the applicable gates. This is responsibility
+within the grant, not continuous activity: do not manufacture tasks, poll models
+or create repeated status updates merely to stay busy. Use supported completion/
+wake mechanisms; ending a turn does not itself arrange an unattended restart.
+
 ## Launch within the grant
 
 Use a fresh, focused brief: role/scope, supervisor, authority, applicable resource policy,
 relevant records, workspace, reporting destination and immediate responsibility.
+Apply the project's speed policy; use Standard for background work unless an
+explicit priority exception applies. See [resources](references/resources.md).
 Record the occupant/session reference in the existing scope record. Include the
 brief in the launch message; a separate permanent file is not mandatory. Specify
 an immediate objective and the first useful response. For user-facing planning,
