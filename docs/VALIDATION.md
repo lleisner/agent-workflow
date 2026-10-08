@@ -81,6 +81,13 @@ expose archive/unarchive and permanent deletion, including descendant effects. N
 sessions, branches or worktrees were retired to validate those capabilities.
 Runtime cleanup behavior remains untested by this package.
 
+A follow-up instruction review covers partial dependency waits with independent
+work available, legitimate waiting with nothing ready, repeated coordinator
+congestion, delivery failure mistaken for congestion, and useful/no-new-lesson
+closeouts. Waiting observations and brief pilot lessons reuse existing records;
+there is no new monitoring loop, mandatory retrospective or automatic role split.
+These scenarios were reviewed statically, not run as model-agent trials.
+
 ## Package and helper checks
 
 - python3 -m unittest discover -s tests -v: 18 tests covering allowance

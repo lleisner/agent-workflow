@@ -31,6 +31,27 @@ merely acknowledging receipt. Use supported runtime completion events where avai
 Do not assume a GitHub comment wakes a sleeping model. If the host needs a wake
 operation, use the tested route; do not substitute continuous model polling.
 
+## Waiting and coordination friction
+
+A pending decision blocks the dependent step, not automatically the whole role.
+Before waiting, check for other useful authorized work toward the same objective:
+ready assignments, available reviews or preparation that does not assume the
+pending decision. Stay within scope and allowance; do not manufacture busywork.
+
+For a material wait, record the awaited decision/dependency, responsible contact
+and when waiting began in the existing report. On the next normal checkpoint or
+wake, notice repeated or substantial coordination delays and report their impact.
+Do not keep the model active solely to measure waiting or repeatedly ping a busy
+supervisor. A true blocked request still uses the direct decision/help route.
+
+The responsible supervisor investigates before prescribing a remedy: ordinary
+dependency, unclear request, delivery/wake failure, unnecessary gate, poor work
+sequencing or an overloaded coordinator can look similar. Ask for the smallest
+useful evidence, then clarify, resequence, delegate, rebalance or split ownership
+within the grant as warranted. Escalate unresolved congestion to the role that can
+change it; a long wait alone does not justify spawning another AC. Record the
+lesson and assess the remedy at a later normal checkpoint.
+
 For clarification, normally ask the responsible subordinate for the specific fact
 or decision you need. Inspect a compact source directly if that is cheaper/faster.
 Broader intervention is justified when the subordinate is unavailable or repeatedly

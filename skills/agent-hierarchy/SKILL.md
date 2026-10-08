@@ -97,8 +97,16 @@ funds. At exhaustion, preserve state and pause affected work without an extensio
 
 ## Improve from use
 
-When recurring friction appears, record its consequence, workaround and proposed
-small correction in the existing coordination record. Keep project conventions
-in the project and reusable mechanics in the skill. Discuss material workflow
-changes with the user; continue independent work around non-blocking issues.
-Do not create a separate audit, agent or report for every completed task.
+At meaningful checkpoints or closeout, capture a useful pilot lesson when one
+exists: what helped or hindered, the observed consequence, and a proposed small
+change. Consider both delegation and supervision: assignment clarity, reports,
+decision requests, coordination delays and allowance decisions. Keep it concise
+in the existing report; no separate audit, agent, questionnaire or retrospective
+is required for every task. Retain successful patterns as well as failure signals.
+
+Supervisors synthesize recurring/material patterns and assess their cause before
+changing structure. See [communication](references/communication.md) for waiting.
+Keep project-specific remedies in the project and route reusable lessons to the
+skill maintainer through the existing coordination record. Discuss material
+workflow changes with the user; feedback alone does not authorize a skill rewrite,
+new hierarchy or extra budget. Continue independent authorized work around issues.
