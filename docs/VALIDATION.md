@@ -22,6 +22,21 @@ EL prompt. This is instruction review, not a model-executed acceptance test.
 The guided entry point has not yet completed a live end-to-end walkthrough.
 The held pilot is not restarted by installing these instructions.
 
+## Focused startup correction — 2026-10-08
+
+A private pilot reported passive leadership/area openings and excessive routine
+activation overhead. The inspected launch briefs explicitly requested acknowledgment
+and waiting despite established planning objectives. The shared instructions now
+cover both brief generation and recipient behavior: a useful first planning question,
+reuse of existing context, explicit-pause exceptions and one routine registry update.
+
+Validation is package/skill validation plus static scenario review: known planning
+mission, explicit pause/acknowledgment diagnostic, routine area activation, missing
+ownership during recovery and bounded implementation authority. This is not a fresh
+model-executed behavioral test. Helpers and runtime configuration are unchanged;
+no agents or project setup are restarted for validation. Confirm the improvement
+on the next authorized real activation.
+
 ## Package and helper checks
 
 - python3 -m unittest discover -s tests -v: 18 tests covering allowance

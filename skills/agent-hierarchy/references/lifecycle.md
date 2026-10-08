@@ -3,10 +3,24 @@
 ## Start or resume
 
 For a newly onboarded project, accept the focused brief delivered by its temporary
-setup facilitator. Acknowledge ownership and the next useful human interaction
-once. Return unresolved setup defects to the facilitator; do not require the human
-to relay a transcript or reconstruct the setup. Ongoing execution belongs to EL
-after handoff, while substantial later setup changes can use a focused helper.
+setup facilitator. Confirm ownership briefly as part of the first useful response.
+For an established planning objective, orient to the known mission and ask one
+manageable question about the next unresolved decision immediately. Use the known
+context; do not make the user repeat it or prompt again to begin. Wait for that
+answer, or respect an explicit pause/acknowledgment-only diagnostic. Planning does
+not grant autonomous investigation, implementation, inference or worker dispatch.
+No particular interview skill or long questionnaire is required.
+
+Return unresolved setup defects to the facilitator; do not require the human to
+relay a transcript or reconstruct setup. Ongoing execution belongs to EL after
+handoff, while substantial later setup changes can use a focused helper.
+
+For routine activation in an established project, reuse current records, supply
+a focused brief with its immediate objective, launch/name/verify the contact and
+make one concise registry update. Read only the relevant role/scope and genuinely
+missing or changed information. Keep unrelated workflow publication and repeated
+whole-project reads off this path; resolve actual ownership/authority gaps when
+needed. This does not replace the reconciliation required for recovery.
 
 1. Find the project agreement and the authoritative scope record.
 2. Establish role identity separately from the native session ID and task ID.

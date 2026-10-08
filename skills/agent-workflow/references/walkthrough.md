@@ -114,16 +114,25 @@ authorized; do not recreate the team because the setup session changed.
 Generate the handoff from canonical records. Include only:
 
 - Assigned role/scope, relevant supervision and current occupant references.
-- The settled goal or the next unresolved project question for the human.
+- The known goal, settled context and concrete immediate objective. For planning,
+  specify a brief orientation and one useful opening question in the first response.
 - Authoritative record locations and the actual assigned workspace.
 - Current start/review/integration authority and applicable resource policy, with
   grant sources. State when no numeric cap applies to the interactive role.
 - Reporting/accounting ownership, relevant runtime limitations and immediate action.
 
-Deliver this brief yourself. The recipient acknowledges its role, records,
-workspace and next action once; unresolved setup defects return to the setup
-facilitator. Avoid acknowledgment loops or re-reading every setup document.
-Do not transfer the full conversation or a directory of raw setup evidence.
+Check that both the launch prompt and its referenced brief request the intended
+first response. Do not turn a planning objective into "read, acknowledge, then
+wait" or require another user prompt to begin. An explicit pause or acknowledgment-
+only diagnostic is an exception; planning authority still grants no autonomous
+investigation, implementation, inference or workers.
+
+Deliver the brief yourself and inspect the first useful response as acceptance;
+no separate acknowledgment exchange is needed. Unresolved setup defects return
+to the facilitator. For routine later activation, use the hierarchy lifecycle:
+reuse records, launch/name/verify and update the registry once, without coupling
+activation to unrelated workflow rewrites. Do not transfer the full conversation
+or a directory of raw setup evidence.
 
 ## 6. Orient the user and close setup
 
@@ -131,7 +140,7 @@ Report a short, concrete result:
 
 - What is configured and what is still unverified.
 - Which live contact to open, its purpose and an actual available open/resume route.
-- What that contact is ready to discuss or do next.
+- The useful opening question or next authorized action the contact has begun.
 - Any remaining execution gate, distinguished from completed workspace setup.
 
 Do not finish with "now prompt EL to set up the workflow" or require another skill

@@ -27,6 +27,13 @@ resumes existing occupants/workspaces/grants on repeat invocation. Creation of
 the agreement alone is not completion: finish the authorized initial role handoff
 and orient the user, or explicitly identify the remaining blocker.
 
+A planning launch carries an immediate objective and begins the conversation:
+brief orientation, then one focused question using known context. Acknowledgment
+is part of that response, not a separate waiting phase unless explicitly requested.
+Routine activation reuses records and updates the registry once; unrelated
+workflow publication is not a prerequisite. This changes neither implementation
+permissions nor the ownership checks needed for recovery.
+
 ## Role boundaries
 
 PL owns vision, EL execution planning, AC area alignment, TC a task deliverable,

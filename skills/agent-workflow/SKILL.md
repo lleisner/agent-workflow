@@ -36,9 +36,13 @@ The three component skills remain independently usable.
 ## Finish with an operational handoff
 
 Prepare the agreed project setup, verify the relevant capabilities, generate and
-deliver the role briefs, and obtain a bounded acknowledgment from the intended
-initial contact. Setup and ordinary human/leadership conversations need no numeric
-allowance by default. Resolve actual launch authority or explicitly imposed limits
+deliver role briefs with a concrete immediate objective, and verify the intended
+contact's first useful response. For planning, that response briefly confirms the
+handoff and asks one focused question from known context; do not instruct the
+recipient to merely acknowledge and wait unless the user asked for that.
+
+Setup and ordinary human/leadership conversations need no numeric allowance by
+default. Resolve actual launch authority or explicitly imposed limits
 here; never invent a project-lifetime cap or reuse an unrelated pilot budget.
 
 Reuse existing occupants when resuming setup. Start only the roles needed now,

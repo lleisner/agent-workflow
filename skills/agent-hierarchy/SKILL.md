@@ -57,7 +57,11 @@ Use [Codex operations](references/codex.md) only for the Codex host.
 Use a fresh, focused brief: role/scope, supervisor, authority, applicable resource policy,
 relevant records, workspace, reporting destination and immediate responsibility.
 Record the occupant/session reference in the existing scope record. Include the
-brief in the launch message; a separate permanent file is not mandatory.
+brief in the launch message; a separate permanent file is not mandatory. Specify
+an immediate objective and the first useful response. For user-facing planning,
+ask for a brief orientation and one focused opening question using known context;
+do not write acknowledgment-only launch instructions unless the user requested
+that diagnostic or a pause. See [lifecycle](references/lifecycle.md) for activation.
 
 Check runtime support instead of assuming native sub-agents are directly writable
 by the user or hidden from the overview. Give user-facing roles appropriately
