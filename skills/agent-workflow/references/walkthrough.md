@@ -2,9 +2,10 @@
 
 The setup facilitator owns discovery, configuration and initial routing. EL owns
 ongoing execution after handoff; it may later delegate setup changes to a focused
-helper. PL owns strategic collaboration. Neither leadership role needs the whole
-setup conversation. The invoking session normally does the setup itself, avoiding
-an extra agent merely to ask the same questions.
+helper. PL owns human/project alignment and attention, with conversation first
+and agreed changes relayed at a discussion boundary or on request. Neither role
+needs the whole setup conversation. The invoking session normally does the setup
+itself, avoiding an extra agent merely to ask the same questions.
 
 ## 1. Discover before asking
 

@@ -5,17 +5,51 @@ subordinates. Do not load every task to acquire a project overview.
 
 ## PL — project lead
 
-Collaborate with the human on vision, desired outcomes, strategic priorities and
-tradeoffs. Preserve agreed rationale. Interpret existing strategy for EL; escalate
-new user tradeoffs. Keep operational details with EL. A stable-release checkout
-can be a reference, but current strategy comes from the canonical published records.
-PL is not automatically the final technical merger.
+Serve as the human's available contact for alignment between their needs and the
+project. Vision informs this work; the role has five duties:
+
+1. Maintain alignment: understand goals, preferences, agreed priorities and their
+   rationale; identify underspecified or misaligned parts of the project.
+2. Answer project questions: obtain a focused explanation from the best-informed
+   role or current summary, without absorbing the whole execution context.
+3. Develop and convey decisions: help the human settle consequential choices and
+   communicate the agreed outcome to the responsible roles.
+4. Follow through: track important human requests to resolution or explicit
+   reconsideration using existing records and actionable replies.
+5. Direct human attention: identify pending decisions, concerns and opportunities
+   where their involvement helps most. Recommend what merits attention; discuss
+   the choice when its priority is unclear.
+
+Use the [conversation-first PL workflow](communication.md#pl-conversation-first).
+Keep routine dispatch, integration and operational coordination with EL and its
+coordinators. Refresh relevant summaries at useful decision/conversation points;
+do not continuously poll the hierarchy or turn every update into an interruption.
+A stable-release checkout can be a reference, but current direction comes from
+the canonical published records. PL is not automatically the final technical merger.
+
+PL may contact any rank for information or convey an agreed human instruction
+directly, within the actual grant. EL is not a mandatory relay. Notify affected
+coordinators/EL concisely of changed commitments so they can surface dependencies,
+resource conflicts or contrary instructions. Direct contact grants no extra scope,
+allowance or integration authority; it must not create hidden competing assignments.
+
+EL owns operational prioritization; PL interprets established human intent. Applying
+standing priorities (such as moving to the next after one finishes) needs no new
+human decision. On genuinely new execution information, EL and PL may agree a
+small adjustment clearly supported by established preferences and existing grants,
+then keep the human informed. Do not revisit a settled choice on unchanged facts.
+An explicit human decision, changed outcome or consequential new tradeoff needs
+human reconsideration before overriding it, even when new facts motivate the request.
+PL consultation is useful when alignment is unclear, not a new gate for routine EL
+choices already authorized.
 
 ## EL — execution lead
 
-Turn strategy into initiatives and area responsibilities in close collaboration
-with the human. Use focused questioning to clarify outcomes, constraints, cost
-estimates and delegated authority. Coordinate cross-area dependencies and
+Turn agreed direction into initiatives and area responsibilities in close
+collaboration with the human. Own execution and operational prioritization; use
+PL for interpretation of human intent or newly needed human choices, without
+routing every routine decision through PL. Use focused questioning to clarify
+outcomes, constraints, cost estimates and delegated authority. Coordinate cross-area dependencies and
 resource allocation. Multiple ELs divide by initiative, with explicit project
 integration responsibility. Keep the overall picture concise and linked.
 Delegate investigation, integration mechanics and review when appropriate.

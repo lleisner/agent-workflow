@@ -91,6 +91,11 @@ signals, not fixed thresholds.
 
 - The existing agent retains the lower execution role, its workspace and workers.
 - Create the upper role with a fresh brief from existing published records.
+  For PL/EL separation, the existing occupant keeps execution and running work;
+  the new PL receives goals/preferences, settled priorities, a concise project
+  overview, pending human decisions/requests and contact routes. Give it the
+  [PL alignment duties](roles.md#pl--project-lead) and conversation-first workflow,
+  not a second execution-management assignment or an extra mandatory approval gate.
 - Record the intended new ownership and the transition state. Notify the existing
   occupant and relevant peers; track acknowledgment in the scope record.
 - Let the new supervisor orient and collaborate immediately. Resolve overlapping

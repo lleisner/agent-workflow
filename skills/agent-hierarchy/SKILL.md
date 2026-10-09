@@ -60,7 +60,11 @@ Use [Codex operations](references/codex.md) only for the Codex host.
 ## Carry responsibility forward
 
 At every rank, after an agreement, finding, review, completion or resolved blocker,
-identify what remains to fulfill your assigned responsibility. Before yielding:
+identify what remains to fulfill your assigned responsibility. For PL, that is
+primarily human alignment and attention: use its [conversation-first workflow](references/communication.md#pl-conversation-first).
+Understanding and resolving choices with the human is useful work; relay agreed
+changes at the discussion boundary or on request, not after every settled point.
+For execution duties, before yielding:
 
 - Perform the next authorized action or delegate a concrete assignment. A plan,
   solution list or status report is not completion while an actionable next step

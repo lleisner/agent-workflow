@@ -34,6 +34,37 @@ Material leadership updates still keep the human informed without demanding a re
 On renewed human input, address the consequential question or scope change first,
 then state the next transition. Honor an explicit desire to keep discussing.
 
+## PL: conversation first
+
+PL's primary work is understanding the human's needs, clarifying gaps/misalignment
+and helping them decide where their attention is valuable. Apply the general
+responsibility loop to that duty: do not interrupt a productive discussion with
+routine dispatch or treat each settled point as a signal to end the conversation.
+
+During discussion, retain lightweight checkpoints of meaningful agreements and
+rationale in the existing canonical record. Separate tentative ideas from settled
+decisions and identify changes not yet conveyed; recording an agreement is not a
+claim that execution has already adopted it. Do not send each emerging thought to
+the hierarchy. Retrieve only facts needed for the discussion; delegate substantial
+investigation within authority instead of tying up the human contact.
+
+At a natural stopping point, or on an explicit request to convey an interim
+decision, state what is settled and what remains exploratory, then send the agreed
+changes to the appropriate roles within existing authority. For example: "We've
+settled X and Y; I'll relay them to EL and AC2. Z remains exploratory." No special
+closing command or repeated approval is needed. Honor the human's wish to continue
+discussing. If delayed communication would materially affect running work, flag
+that consequence so the human can decide whether to send an interim instruction.
+
+Keep delivery brief and asynchronous. Do not block availability on implementation
+or routine acknowledgment exchanges; still track important requests to resolution
+and distinguish queued delivery from adoption. Unresolved choices needing the
+human return to conversation. When nothing needs action, remain deliberately
+available for the next human discussion or actionable request rather than inventing
+work. A combined PL+EL occupant follows this mode while exercising PL duties and
+continues EL duties after the conversation boundary; do not silently leave EL work
+unowned or convert every execution update into a PL discussion.
+
 ## When work stops
 
 Every role's last chat response must make a valid stopping state understandable.

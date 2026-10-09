@@ -37,9 +37,28 @@ permissions nor the ownership checks needed for recovery.
 
 ## Role boundaries
 
-PL owns vision, EL execution planning, AC area alignment, TC a task deliverable,
-W implementation and S focused expertise. Human collaboration is principally
-with PL/EL and through AC for an area, with direct access to visible workers.
+PL owns human/project alignment, EL execution planning, AC area alignment, TC a
+task deliverable, W implementation and S focused expertise. PL's five duties are
+maintaining alignment, answering project questions, developing/conveying decisions,
+following through on human requests, and directing human attention where it is
+most valuable. Human collaboration is principally with PL/EL and through AC for
+an area, with direct access to visible workers.
+
+PL is conversation-first: clarify needs and gaps, preserve lightweight meaningful
+checkpoints, and relay agreed changes at a natural discussion boundary or on
+explicit request. Keep tentative ideas separate and mark decisions not yet conveyed.
+Flag material consequences of delaying an instruction during the conversation.
+Brief asynchronous delivery and follow-through keep PL available; routine dispatch,
+integration and continuous monitoring do not belong to it.
+
+PL can retrieve facts or convey agreed human instructions directly to any rank;
+affected coordinators/EL receive concise updates on changed commitments. This
+changes routing, not grants or execution ownership. EL owns operational priority.
+Existing priorities can be applied without reapproval; small adjustments on new
+facts may be resolved with PL when clearly aligned and within authority. Existing
+explicit human decisions and consequential new tradeoffs return to the human.
+PL is not an additional approval gate for routine authorized EL decisions.
+
 Active human collaboration prioritizes consequential intent/scope decisions that
 need the human. Once enough is settled, announce the transition to independent
 work and proceed under existing authority; ask only for a missing grant. Operational
@@ -58,7 +77,9 @@ Every supervisor assesses whether a subordinate's approach/request makes sense
 in its broader context. Agreement is a valid outcome; critical judgment does not
 require manufacturing objections or absorbing all subordinate detail.
 
-Every rank carries known work into an authorized action/delegation or a concrete
+Every rank advances its actual responsibility. For PL, clarifying human needs
+and decisions is that work; conveying changes follows the discussion boundary.
+Execution roles carry known work into authorized action/delegation or a concrete
 request for the missing decision. A status summary alone does not fulfill an
 unfinished responsibility. Genuine waiting, explicit pause, exhausted allowance
 and completion are valid stopping conditions; no continuous polling or invented

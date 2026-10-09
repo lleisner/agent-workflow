@@ -126,6 +126,25 @@ review pending, completed assignment closeout and retained leadership. These are
 instruction checks, not new model-executed trials. No sessions were launched or
 retired, no project scope was granted, and no runtime wake behavior was changed.
 
+## Conversation-first project lead — 2026-10-09
+
+Accepted pilot feedback broadens PL from vision alone to human/project alignment:
+maintain intent, answer questions, develop/convey decisions, follow through and
+direct human attention. PL prioritizes discussion, checkpoints meaningful decisions
+and relays them at a natural boundary or on explicit request. Direct contact at any
+rank preserves affected coordinators' visibility and actual grants. EL retains
+execution ownership; explicit human decisions and consequential tradeoffs cannot be
+silently overridden. Startup/split guidance and the all-rank continuation rule now
+reflect that distinction.
+
+Package/skill validation and static walkthroughs cover tentative versus settled
+ideas, continued discussion, normal/interim delivery, time-sensitive running work,
+queued versus adopted instructions, direct TC contact with resource consequences,
+standing priorities, new facts with small adjustments versus protected choices,
+attention triage, combined PL+EL duties and a split retaining live EL work. This is
+instruction review, not a model-executed behavior or availability guarantee. No
+role was launched, split or reconfigured and no runtime settings/helpers changed.
+
 ## Package and helper checks
 
 - python3 -m unittest discover -s tests -v: 18 tests covering allowance
