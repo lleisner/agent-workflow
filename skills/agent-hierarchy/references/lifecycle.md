@@ -54,11 +54,16 @@ An AC's planning responsibility continues beyond identifying the scope:
 1. State your assessment of readiness and summarize outcomes, exclusions,
    constraints and remaining uncertainties. Confirm scope when needed; reuse
    existing explicit user confirmation instead of asking again.
-2. Prepare a reviewable TC proposal, using a table or dependency graph: bounded
-   deliverables and acceptance, priorities with rationale, dependencies, possible
-   parallel work, shared interfaces/file ownership, integration order and cross-area
-   needs. Turn unresolved technical questions into early bounded deliverables or
-   explicit gates; do not silently settle them or investigate without authority.
+2. Plan across the area's known responsibility before selecting the next task.
+   Show bounded deliverables/acceptance, priorities, ready parallel streams,
+   genuinely dependent work and deliberate deferrals with reasons. Name the
+   artifact/milestone each dependency needs; distinguish what can start now from
+   what must wait to finish. Include shared interfaces/file ownership, integration
+   order and cross-area needs. Justify serial exploration by the uncertainty it
+   resolves and the parallel work it unlocks; do not impose blanket wave barriers
+   or spawn extra agents merely to appear parallel. Turn unresolved technical
+   questions into bounded deliverables or actual gates, not silent assumptions.
+   EL applies this across areas; TC applies it within its deliverable.
 3. Surface proposed priorities/dependencies to EL for broader review through the
    existing reporting mechanism; request a decision directly when needed. Keep
    the summary at EL's scope and link the proposal. EL addresses wider conflicts,
@@ -67,8 +72,9 @@ An AC's planning responsibility continues beyond identifying the scope:
 4. State the proposed launch scope and applicable resource/authority needs. Scope
    confirmation and planning alone are not dispatch authorization. Apply the
    project's actual gates and existing grants: if already covered, proceed; if
-   not, present the concrete proposal to the designated approver (the user where
-   required) and request only the missing decision. Add no universal EL approval
+   not, request only the missing decision from the designated approver. For the
+   human, use the [chat approval schedule](approvals.md); a long agent-facing
+   proposal is not the human review surface. Add no universal EL approval
    gate or fixed TC count. Do not reset spending or request a new allowance or
    permission when the existing grant already covers the proposed work.
 5. Once authorized, dispatch and coordinate within the agreed plan, keep EL
@@ -98,6 +104,16 @@ The coordinator chooses practical timing within these responsibilities; this
 procedure does not require a new lock service or a project-wide pause.
 
 ## End or replace
+
+Result readiness, accepted assignment completion and agent retirement are distinct.
+Request the relevant review/integration when results are ready. After acceptance,
+the immediate supervisor owns the closeout decision: authorized follow-up work,
+deliberate retention for a stated responsibility/trigger, or retirement under the
+cleanup policy. Preserve the result/usage and route that decision request; do not
+leave a finished occupant without an owner for its next disposition. The supervisor
+handles this at its next relevant coordination checkpoint, not by forwarding every
+closeout to EL/the human. Ongoing leadership/contact duties can justify retention
+without inventing new assignments or repeatedly seeking permission after each chat.
 
 Prefer replacement at a meaningful boundary, normally after live subordinate work
 has finished. Preserve references to current commits/PRs, unresolved questions,

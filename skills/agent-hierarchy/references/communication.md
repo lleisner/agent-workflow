@@ -21,6 +21,10 @@ I'll return if Z needs your decision." Then take that authorized next step.
 If a genuine gate remains, present the concrete scope/action and ask only for that
 missing approval; do not add a routine "may I continue?" gate to every conversation.
 A discussion-only request still needs execution authority before implementation.
+For human work-distribution approvals, use the compact chat schedule in
+[human approvals](approvals.md). Keep the detailed agent proposal in its own record;
+after the answer, record the resulting grant/conditions there without duplicating
+the user-facing document or conversation.
 
 During independent work, bring the human back when their input is needed. Collect
 nonurgent human questions in the existing record for the next useful discussion;
@@ -29,6 +33,27 @@ larger batch. Continue independent authorized work while awaiting an answer.
 Material leadership updates still keep the human informed without demanding a reply.
 On renewed human input, address the consequential question or scope change first,
 then state the next transition. Honor an explicit desire to keep discussing.
+
+## When work stops
+
+Every role's last chat response must make a valid stopping state understandable.
+Use one or two concise sentences with the reason, responsible contact, user action
+(or none) and the actual resumption condition; reuse an approval question already
+shown rather than append a second form. A host's "ready" label is not that report.
+
+- User decision needed: ask the concrete question and give the recommendation.
+- Waiting on a supervisor, delegated work or dependency: name what/who is awaited,
+  the affected work and whether the user needs to do anything.
+- Result ready: identify the pending review/integration. Once the assignment is
+  complete, name the immediate supervisor deciding follow-up, retention or retirement.
+- Deliberately retained: state the standing responsibility or planned follow-up and
+  its next trigger; do not describe an abandoned conversation as "complete".
+- Paused or exhausted: state the affected scope and missing resume/extension decision.
+
+Send necessary action/closeout requests through the supported route before claiming
+they are pending with another role. Do not promise automatic wake unless verified.
+This is a final chat message, not a new report file, acknowledgment loop or recurring
+idle heartbeat. Independent authorized work still takes precedence over waiting.
 
 ## Reports and requests
 

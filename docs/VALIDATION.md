@@ -109,6 +109,23 @@ subsequent turns; this update adds no live reasoning test, agent launch, model
 benchmark or automatic conversation detector. Existing sessions/configuration are
 not changed by publishing the instructions.
 
+## Human approval schedules and visible closeout — 2026-10-09
+
+The user accepted a compact chat table plus dependency map for complex approvals.
+The new hierarchy reference scales across EL/AC/TC work, separates the human view
+from detailed agent records, and shows parallel starts, intermediate handoffs,
+aggregate resources and the actual grant. The task skill includes the compact
+standalone form. Final chat messages now explain every valid stopping state;
+accepted completion routes reassignment/retention/retirement to the immediate
+supervisor instead of leaving unowned idle sessions.
+
+Package/skill validation and static walkthroughs cover a small task, a whole-area
+five-TC plan, early versus final handoffs, a genuine dependency cycle, partial
+waiting, unknown resource estimates, existing/changed grants, user/supervisor waits,
+review pending, completed assignment closeout and retained leadership. These are
+instruction checks, not new model-executed trials. No sessions were launched or
+retired, no project scope was granted, and no runtime wake behavior was changed.
+
 ## Package and helper checks
 
 - python3 -m unittest discover -s tests -v: 18 tests covering allowance

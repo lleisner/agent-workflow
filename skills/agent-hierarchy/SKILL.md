@@ -35,6 +35,9 @@ Read [lifecycle](references/lifecycle.md) for startup, splitting, recovery,
 closeout or turning area scoping into a TC proposal and launch decision.
 Read [communication](references/communication.md) for human collaboration, its
 transition to independent work, and team coordination.
+Use [human approvals](references/approvals.md) when any role asks the user to
+approve work distribution: a compact schedule directly in chat, separate from
+agent-facing proposals.
 Use [resources](references/resources.md) when allocating or accounting for usage.
 Use [Codex operations](references/codex.md) only for the Codex host.
 
@@ -68,7 +71,13 @@ identify what remains to fulfill your assigned responsibility. Before yielding:
 - Wait when no useful authorized action remains: delegated work or a dependency
   is pending, a concrete question/approval is unanswered, an explicit pause applies,
   or the allowance is exhausted. Record what is awaited and what resumes the work.
-  When the responsibility is fulfilled, close it rather than inventing more scope.
+  When the assignment is fulfilled, preserve the result and request its immediate
+  supervisor's review/closeout and reassignment, retention or retirement decision.
+  Do not leave an ownerless "complete, no remaining assignment" session.
+
+Whenever you stop working, make the last chat response explain the current state,
+reason, decision owner, whether the user must respond and what resumes the work.
+Use the concise formats in [communication](references/communication.md#when-work-stops).
 
 Respect discussion-only scope and the applicable gates. This is responsibility
 within the grant, not continuous activity: do not manufacture tasks, poll models

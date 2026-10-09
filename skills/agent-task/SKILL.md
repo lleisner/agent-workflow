@@ -17,6 +17,13 @@ An initiative spanning areas is decomposed above TC; it is not one cross-area ta
 The responsible coordinator judges readiness and dependency strategy within the
 approved scope. Priority alone does not grant permission or budget.
 
+When human approval is required, present a compact schedule directly in chat:
+work/owner and intended result, what can start now and what must wait, plus a small
+dependency map when useful. Add the recommendation/tradeoff, justified staffing and
+aggregate resource/stop limits, material exclusions and exact authority requested.
+Keep detailed agent assignments in their own records; record the resulting human
+decision there without duplicating the chat document. Ask only for missing grants.
+
 For the GitHub starter, read [GitHub records](references/github.md). One task issue
 is the deliverable; worker assignments use editable comments beneath it. Keep
 coordination issues out of the ready pool. Use GitHub's issue number with the

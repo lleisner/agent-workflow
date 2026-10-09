@@ -46,6 +46,14 @@ work and proceed under existing authority; ask only for a missing grant. Operati
 choices remain with the hierarchy, while nonurgent human questions can accumulate
 for the next useful discussion. A visible session is not always conversational.
 
+Human approval requests at any rank use a compact schedule directly in chat,
+separate from detailed agent proposals. A table distinguishes immediate work from
+blocked stages; a small dependency map exposes intermediate handoffs and integration
+order. Coordinators plan parallel progress across their full known responsibility,
+with justified deferrals/serial work and aggregate staffing/resources. Store the
+resulting grant and conditions in the authoritative record, not a duplicate of the
+human document. The example's team size is not a default or execution grant.
+
 Every supervisor assesses whether a subordinate's approach/request makes sense
 in its broader context. Agreement is a valid outcome; critical judgment does not
 require manufacturing objections or absorbing all subordinate detail.
@@ -99,6 +107,12 @@ Specialist status alone does not determine visibility.
 
 Use names such as W1 · PCT007 Edge-case tests · EL1/AC1/TC1. Roles persist across
 agent replacement. Workspace folders use stable area/task names, not occupants.
+
+Every role's final chat message explains its valid stopping state, decision owner,
+user action needed and resumption condition. Accepted assignment completion triggers
+an immediate-supervisor decision on follow-up, deliberate retention or retirement;
+it does not justify an ownerless idle session. Standing leadership duties can
+justify retention. Results awaiting review remain distinct from accepted completion.
 
 ## Authority and resources
 
