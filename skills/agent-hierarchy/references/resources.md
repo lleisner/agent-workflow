@@ -42,13 +42,40 @@ session in v1; use a new session for a different model/tier so cumulative snapsh
 do not misprice mixed usage. This limitation is explicit, not exact attribution
 of an unobserved model change.
 
+## Reasoning policy
+
+Preserve the user's selected model and project-specific effort settings. When
+adopting a rank-based profile, this is a starting point to evaluate in the pilot:
+
+| Responsibility | Default reasoning effort |
+| --- | --- |
+| Worker or specialist | medium |
+| Task coordinator | high |
+| Area coordinator or execution lead | xhigh (extra high) |
+
+PL retains its user-agreed strategic setting; xhigh is a reasonable initial choice
+when none is established. Combined roles use the setting appropriate to the work
+they are undertaking. These are configurable defaults, not quality guarantees:
+a coordinator can assign higher effort to difficult investigation, security review
+or integration reasoning within its authority/allowance. Specialist status alone
+does not make an assignment easy. Record consequential exceptions in the assignment.
+Verify that the selected model/runtime supports the requested effort; do not
+silently substitute a different model or pretend a prompt applied a host setting.
+
 ## Speed policy
 
-Use the project's agreed policy. A conservative default is Standard for workers,
-helpers and background coordination, including most TC work. Fast can be useful
-for interactive PL/EL conversations, occasional AC/TC conversations or work that
-EL explicitly prioritizes within its authority and allowance. Rank alone does not
-make every background turn urgent. Keep model/reasoning choice separate from speed.
+Fast is off by default for every role. When the project's policy enables
+conversational acceleration, use Fast for active human collaboration where the
+host controls and accounting support it, then restore and verify Standard before
+independent work resumes. An open viewer, human availability or user-facing title
+is not evidence of an active conversation. EL may explicitly prioritize autonomous
+work for Fast within its authority and allowance. Keep reasoning effort separate:
+Standard speed does not lower the chosen reasoning level.
+
+Automatic conversation-based switching is conditional, not a capability supplied
+by skill prose. If the host cannot reliably apply the transition, or usage cannot
+be attributed correctly, keep Standard and state the limitation once. Do not
+silently leave background work on Fast or create repeated user approval prompts.
 
 Specify and verify the intended tier through supported host controls; a prompt
 requesting Standard is not a runtime setting. Do not assume children inherit the

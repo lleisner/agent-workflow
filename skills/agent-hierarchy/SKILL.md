@@ -33,7 +33,8 @@ For your assigned role, read only the corresponding section of
 [roles](references/roles.md), the relevant project brief and current decisions.
 Read [lifecycle](references/lifecycle.md) for startup, splitting, recovery,
 closeout or turning area scoping into a TC proposal and launch decision.
-Read [communication](references/communication.md) before coordinating a team.
+Read [communication](references/communication.md) for human collaboration, its
+transition to independent work, and team coordination.
 Use [resources](references/resources.md) when allocating or accounting for usage.
 Use [Codex operations](references/codex.md) only for the Codex host.
 
@@ -78,13 +79,16 @@ wake mechanisms; ending a turn does not itself arrange an unattended restart.
 
 Use a fresh, focused brief: role/scope, supervisor, authority, applicable resource policy,
 relevant records, workspace, reporting destination and immediate responsibility.
-Apply the project's speed policy; use Standard for background work unless an
-explicit priority exception applies. See [resources](references/resources.md).
+Apply the project's model, reasoning and speed policy; Standard is the default.
+See [resources](references/resources.md) for a rank-based reasoning profile and
+conditional Fast use during human collaboration.
 Record the occupant/session reference in the existing scope record. Include the
 brief in the launch message; a separate permanent file is not mandatory. Specify
 an immediate objective and the first useful response. For user-facing planning,
-ask for a brief orientation and one focused opening question using known context;
-do not write acknowledgment-only launch instructions unless the user requested
+ask for a brief orientation and the next consequential unresolved question using
+known context. If already scoped, have the recipient take the next authorized
+action or request the actual missing approval instead of inventing a question.
+Do not write acknowledgment-only launch instructions unless the user requested
 that diagnostic or a pause. See [lifecycle](references/lifecycle.md) for activation.
 
 Check runtime support instead of assuming native sub-agents are directly writable

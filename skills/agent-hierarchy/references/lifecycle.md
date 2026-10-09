@@ -4,12 +4,15 @@
 
 For a newly onboarded project, accept the focused brief delivered by its temporary
 setup facilitator. Confirm ownership briefly as part of the first useful response.
-For an established planning objective, orient to the known mission and ask one
-manageable question about the next unresolved decision immediately. Use the known
-context; do not make the user repeat it or prompt again to begin. Wait for that
-answer, or respect an explicit pause/acknowledgment-only diagnostic. Planning does
-not grant autonomous investigation, implementation, inference or worker dispatch.
-No particular interview skill or long questionnaire is required.
+For an established planning objective, orient to the known mission and ask the
+highest-impact unresolved question that needs human input. Use known context;
+do not make the user repeat it or prompt again to begin. If the scope is already
+sufficient, state the transition to authorized work or request the actual missing
+grant; do not invent an opening question. Follow the human/independent-work
+boundary in [communication](communication.md). Respect an explicit pause or
+acknowledgment-only diagnostic. Planning alone does not grant autonomous
+investigation, implementation, inference or worker dispatch. No particular
+interview skill or long questionnaire is required.
 
 Return unresolved setup defects to the facilitator; do not require the human to
 relay a transcript or reconstruct setup. Ongoing execution belongs to EL after

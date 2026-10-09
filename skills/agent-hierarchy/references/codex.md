@@ -31,7 +31,15 @@ Inspect/resume using native Codex controls. A name is a display label, not a
 session address or permission. Keep the immutable session identifier in the
 canonical role/assignment record.
 
-## Selecting speed
+## Selecting reasoning and speed
+
+Apply reasoning through actual host controls. Codex's
+[`/model` menu](https://learn.chatgpt.com/docs/developer-commands#set-the-active-model-with-model)
+exposes effort where supported; the local 0.160.0 app-server schema exposes `effort` on
+`thread/settings/update` for subsequent turns. The native `spawn_agent` tool can
+accept `reasoning_effort` with fresh focused context when its current schema allows;
+`create_thread` does not expose that option. Verify the selected model's supported
+values and readback. Effort controls were inspected, not live-tested in this update.
 
 CLI sessions can select their own tier with `-c service_tier="default"` for
 Standard or `-c service_tier="fast"` for Fast; `/fast` is the interactive toggle.
@@ -50,8 +58,11 @@ service-tier argument. Their child-tier inheritance was not established by that
 probe. Do not pass invented arguments or claim prompt text sets the tier. Use a
 verified host route before the first model turn, or ask for the needed host/user
 setting when that route is unavailable. Do not take over an active session's
-writer merely to alter settings. Keep allowance accounting consistent with the
-selected tier as described in [resources](resources.md).
+writer merely to alter settings. These controls do not automatically detect human
+conversation or guarantee a change applies to the generation already in progress.
+Apply transitions at supported boundaries, verify Standard before independent work,
+and keep accounting consistent as described in [resources](resources.md). The
+current helper does not implement automatic phase detection or mixed-tier accounting.
 
 ## Native helpers
 

@@ -27,8 +27,9 @@ resumes existing occupants/workspaces/grants on repeat invocation. Creation of
 the agreement alone is not completion: finish the authorized initial role handoff
 and orient the user, or explicitly identify the remaining blocker.
 
-A planning launch carries an immediate objective and begins the conversation:
-brief orientation, then one focused question using known context. Acknowledgment
+A planning launch carries an immediate objective: brief orientation, then the
+next consequential unresolved question using known context. When already scoped,
+advance the authorized next step or request the actual missing grant. Acknowledgment
 is part of that response, not a separate waiting phase unless explicitly requested.
 Routine activation reuses records and updates the registry once; unrelated
 workflow publication is not a prerequisite. This changes neither implementation
@@ -39,6 +40,12 @@ permissions nor the ownership checks needed for recovery.
 PL owns vision, EL execution planning, AC area alignment, TC a task deliverable,
 W implementation and S focused expertise. Human collaboration is principally
 with PL/EL and through AC for an area, with direct access to visible workers.
+Active human collaboration prioritizes consequential intent/scope decisions that
+need the human. Once enough is settled, announce the transition to independent
+work and proceed under existing authority; ask only for a missing grant. Operational
+choices remain with the hierarchy, while nonurgent human questions can accumulate
+for the next useful discussion. A visible session is not always conversational.
+
 Every supervisor assesses whether a subordinate's approach/request makes sense
 in its broader context. Agreement is a valid outcome; critical judgment does not
 require manufacturing objections or absorbing all subordinate detail.

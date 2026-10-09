@@ -88,6 +88,27 @@ closeouts. Waiting observations and brief pilot lessons reuse existing records;
 there is no new monitoring loop, mandatory retrospective or automatic role split.
 These scenarios were reviewed statically, not run as model-agent trials.
 
+## Human collaboration and reasoning defaults — 2026-10-09
+
+The guidance now distinguishes active human collaboration from independent work:
+prioritize consequential scoping decisions, announce when input is sufficient,
+reuse existing grants and route routine choices through the hierarchy. Planning
+launch instructions no longer require an invented question when scope is settled.
+A configurable reasoning profile starts workers/specialists at medium, TC at high,
+and AC/EL at xhigh, preserving PL's agreed setting and allowing justified exceptions.
+Fast defaults off; conversational acceleration requires working host transitions
+and attribution of mixed-tier usage. The existing whole-session ledger is unchanged,
+so automatic switching for its registered sessions is not claimed as implemented.
+
+Validation covers package/skill checks and static scenarios: underspecified intent,
+already-settled scope with/without execution authority, a low-impact operational
+choice during human conversation, deferred nonurgent questions versus a blocker,
+renewed user input, a difficult specialist assignment, and unsupported speed or
+effort controls. Local CLI 0.160.0 schema inspection confirms an effort setting for
+subsequent turns; this update adds no live reasoning test, agent launch, model
+benchmark or automatic conversation detector. Existing sessions/configuration are
+not changed by publishing the instructions.
+
 ## Package and helper checks
 
 - python3 -m unittest discover -s tests -v: 18 tests covering allowance

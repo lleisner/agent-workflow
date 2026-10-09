@@ -38,8 +38,10 @@ The three component skills remain independently usable.
 Prepare the agreed project setup, verify the relevant capabilities, generate and
 deliver role briefs with a concrete immediate objective, and verify the intended
 contact's first useful response. For planning, that response briefly confirms the
-handoff and asks one focused question from known context; do not instruct the
-recipient to merely acknowledge and wait unless the user asked for that.
+handoff and addresses the next consequential unresolved question from known context.
+If sufficiently scoped, it states the next authorized action or actual missing gate.
+Do not invent a question or instruct the recipient to merely acknowledge and wait
+unless the user requested an acknowledgment-only diagnostic.
 
 Setup and ordinary human/leadership conversations need no numeric allowance by
 default. Resolve actual launch authority or explicitly imposed limits

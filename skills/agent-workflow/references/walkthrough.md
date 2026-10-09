@@ -115,7 +115,8 @@ Generate the handoff from canonical records. Include only:
 
 - Assigned role/scope, relevant supervision and current occupant references.
 - The known goal, settled context and concrete immediate objective. For planning,
-  specify a brief orientation and one useful opening question in the first response.
+  specify a brief orientation and the next consequential unresolved question. When
+  already scoped, use the next authorized action or actual missing gate instead.
 - Authoritative record locations and the actual assigned workspace.
 - Current start/review/integration authority and applicable resource policy, with
   grant sources. State when no numeric cap applies to the interactive role.
