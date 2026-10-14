@@ -7,7 +7,7 @@ Project records determine actual scope, occupants, permissions and active roles.
 
 | Role | Responsibility | Profile | Authoritative role source |
 | --- | --- | --- | --- |
-| UL | User understanding, decisions and attention | `user_liaison` | [UL](profile-sources/user_liaison.md) |
+| UL | User orientation, alignment, attention and conversation routing | `user_liaison` | [UL](profile-sources/user_liaison.md) |
 | PL | Single project-wide executive; coordinates EL scopes | `project_lead` | [PL](profile-sources/project_lead.md) |
 | EL | Ongoing execution coordination across assigned areas | `execution_lead` | [EL](profile-sources/execution_lead.md) |
 | AC | Area outcomes and coordination/integration of TC deliverables | `area_coordinator` | [AC](profile-sources/area_coordinator.md) |

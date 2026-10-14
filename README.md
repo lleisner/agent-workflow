@@ -65,7 +65,7 @@ Implementation branches contain code, evidence and working drafts.
 
 ```mermaid
 flowchart TD
-    U[User] <--> UL["UL · Understanding, decisions and attention"]
+    U[User] <--> UL["UL · Orientation, alignment and routing"]
     UL <-->|Agreed direction / curated choices| Lead
     subgraph Execution[Autonomous execution]
         Lead["PL+EL · Project and cross-area execution"]
@@ -73,6 +73,8 @@ flowchart TD
         AC <--> TC["TC · Task coordination and integration"]
         TC <--> W["Workers · Bounded contributions"]
     end
+    U <-->|Area discussions| AC
+    U <-->|Task discussions| TC
     Helper["Focused helpers · e.g. independent review"]
     TC -.-> Helper
 ```
@@ -80,8 +82,10 @@ flowchart TD
 One representative branch is shown. Assignments and refinements go down;
 curated results, implications and decision requests go up. Every supervisor
 coordinates work throughout execution. Helpers can support any role without
-becoming another rank. UL and the user can contact other roles directly when
-useful, keeping affected owners informed.
+becoming another rank. UL helps the user orient and enter the right conversation;
+sustained area/task discussion happens directly with its owner, using a concise
+handoff. The diagram shows examples of direct contact, not an exclusive route.
+Keep affected owners informed and use user-facing terms that explain the decision.
 
 PL+EL normally shares one occupant. A separate executive PL becomes useful only
 for an authorized expansion to multiple ELs. AC+TC can likewise share an occupant

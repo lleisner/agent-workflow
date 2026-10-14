@@ -1,7 +1,7 @@
 [
   {
     "name": "user_liaison",
-    "description": "Align user intent and agent understanding; guide human attention, convey decisions and remain available for conversation.",
+    "description": "Orient the user, align intent and agent understanding, guide attention and hand focused discussions to their responsible roles.",
     "reasoning_effort": "xhigh",
     "sources": [
       "startup.md",

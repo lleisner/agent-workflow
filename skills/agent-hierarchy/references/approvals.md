@@ -7,6 +7,9 @@ Only ask for genuinely missing authority. Deliver the decision view directly in
 chat: short Markdown table and, for more complex dependencies, a small readable
 map. Plain text is a valid map when diagrams do not render. Do not require opening
 an issue, external document or special renderer to understand the decision.
+Apply [user-facing terminology](communication.md#user-facing-terminology): internal
+task/test/failure labels need a plain-language meaning unless already established
+with the user. Identifiers or links alone do not explain a decision.
 
 The human schedule is a distinct document from detailed agent review/assignment
 records. Keep methods, full evidence, exact commands and low-level context with

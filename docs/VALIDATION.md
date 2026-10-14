@@ -7,9 +7,9 @@ not autonomous judgment, unattended reliability or adoption by existing sessions
 Current behavior is defined in [the design](DESIGN.md) and linked role sources.
 Historical experiments below are evidence, not alternative policy.
 
-## Current local checks — 2026-10-13
+## Current local checks — 2026-10-14
 
-- **29 tests pass on Python 3.12.** Python 3.9 passes with two TOML-parser tests
+- **29 tests pass on Python 3.13.** Python 3.9 passes with two TOML-parser tests
   skipped. No model calls or live project mutations are part of this suite.
 - Ten profile tests cover deterministic composition, shared-source propagation,
   settings, TOML quoting/roundtrips, invalid input, regeneration, stale assets,
@@ -29,6 +29,7 @@ separate copies, not links to the maintenance checkout. These changes have not
 installed profiles, launched roles or changed live project grants/settings.
 
 Static instruction review covers guided setup/resume, useful first responses,
+conversation routing with context handoffs, user-facing terminology,
 continuing known authorized work, partial waits, concise reporting, user decisions,
 scope-specific review/correction, integration evidence, role release confirmation,
 shared-dev exclusive turns and closeout. It does not prove agents follow those

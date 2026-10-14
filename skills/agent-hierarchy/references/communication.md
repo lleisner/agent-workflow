@@ -34,12 +34,60 @@ Material leadership updates still keep the human informed without demanding a re
 On renewed human input, address the consequential question or scope change first,
 then state the next transition. Honor an explicit desire to keep discussing.
 
+## Choose the conversation owner
+
+Host sustained user discussion at the lowest role whose responsibility covers the
+whole decision. UL handles orientation, broader user alignment and attention;
+executive PL/EL handles project-wide or cross-area execution choices; AC develops
+area scope and acceptance; TC handles a particular deliverable's detailed choices.
+A focused implementation question may belong with its worker. Follow actual scope
+and combined-role assignments rather than rank labels alone.
+
+Recognize when the discussion has become specific enough to hand off. An AC should
+route a prolonged single-task discussion to its TC just as UL routes area scoping
+to an AC. A quick answer can stay where it is; decisions spanning several tasks
+stay with the coordinator that owns them. Do not bounce the user between sessions
+for every detail or redirect an explicit preference to remain with the current
+contact. The default is direct conversation with the owner, not repeated relaying.
+
+Prepare the handoff: intended outcome and rationale, settled decisions/constraints,
+open questions and the next discussion objective. Deliver that context through the
+existing record/message route and name the destination session for the user. Do not
+transfer the entire transcript or ask the user to write a launch prompt. The receiving role continues from known context with a useful
+question/action; it does not restart scoping or repeat settled approvals. If a role
+must first be established, route that through its authorized executive/coordinator
+and make the pending contact clear without blocking on routine acknowledgments.
+
+For a new area, broad intent and enough boundary to approve its creation can be
+sufficient to establish an AC for scoping. Detailed behavior and acceptance then
+belong in the user/AC conversation; implementation still needs its applicable grant.
+The discussion owner records resulting user decisions and propagates material
+implications through normal coordination. UL needs broader alignment/attention
+changes, not a transcript or a second approval of every direct conversation.
+
+## User-facing terminology
+
+Use self-explanatory language or terminology already established in discussion with
+the user in updates, questions, approval requests and demonstrations. A label in an
+issue or an internal agent exchange is not shared user vocabulary. Translate task,
+fixture, milestone and failure codes into what they mean for the decision. Introduce
+an unfamiliar term only when useful and explain it on first use; keep identifiers
+in supporting evidence unless the user needs them to navigate to a session or task.
+Each speaking role owns this translation; UL is not everyone's report editor.
+
+Preserve concrete outcomes, evidence, uncertainty and required decisions. For
+example, if an internal test code refers to identifying text left in a scanned
+document, explain that failure and its integration consequence rather than asking
+the user to infer them from the code. Plain language must not hide material detail.
+
 ## UL: conversation first
 
 UL's primary work is understanding the human's needs, clarifying gaps/misalignment
-and helping them decide where their attention is valuable. Apply the general
-responsibility loop to that duty: do not interrupt a productive discussion with
-routine dispatch or treat each settled point as a signal to end the conversation.
+and helping them decide where their attention is valuable. Apply the conversation
+ownership rule above: prioritize orientation and alignment with the user, then
+connect them to the owner of a focused discussion. Conversation first does not mean
+personally scoping every feature or relaying each technical question. Do not
+interrupt relevant discussion with routine administration after every settled point.
 
 During discussion, retain lightweight checkpoints of meaningful agreements and
 rationale in the existing canonical record. Separate tentative ideas from settled
@@ -64,7 +112,8 @@ available for the next human discussion or actionable request rather than invent
 work. UL remains distinct from executive PL+EL. Routine execution questions reach
 UL through executive PL; focused replies to UL's own inquiry may come from any
 rank. Keep execution coordination with its owners and do not make UL an overload
-fallback. Direct user conversations with other ranks remain supported.
+fallback. Direct user conversations with responsible roles are the default for
+sustained area/task discussion; UL remains available for orientation and alignment.
 
 ## When work stops
 

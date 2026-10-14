@@ -10,8 +10,13 @@ identity, branch ownership and permission to act are separate.
 User Liaison (UL) aligns the user's conception with the agents' conception of the
 project. It clarifies intent and underspecification, answers project questions,
 develops/conveys decisions, follows important requests through and guides human
-attention. Conversation comes first; meaningful decisions are checkpointed and
-relayed at a natural boundary or on request. Tentative ideas remain distinguishable.
+attention. It directs sustained area/task discussion to the responsible agent once
+ownership is clear, before developing that area's detailed scope itself. At every
+rank, use the lowest role whose responsibility covers the whole decision; quick
+answers need no handoff and broader choices remain with their owner. A concise
+handoff preserves context so the user does not repeat it. Meaningful decisions are
+checkpointed and relayed at a natural boundary or on request; tentative ideas remain
+distinguishable. Direct discussion decisions need no second approval through UL.
 Focused direct contact with any rank is possible without hidden changes to others'
 commitments. UL remains outside autonomous execution and does not coordinate ELs.
 
@@ -123,6 +128,11 @@ Provide the outcome, demonstrated change, meaningful discoveries, suitable evide
 or a usable interaction, limits/trade-offs and a specific recommendation/decision.
 A review-passed assertion does not demonstrate the outcome. Keep detailed evidence
 as optional depth and preserve decision-relevant uncertainty despite brevity.
+Use language that is self-explanatory or established in discussion with the user.
+Translate internal task, fixture and failure codes into their meaning and consequence;
+introduce unfamiliar terms only when useful and explain them. Identifiers belong
+in supporting references unless needed for navigation. Each role owns the clarity
+of its user-facing communication; UL does not rewrite all reports.
 
 Anticipate this evidence during scoping: claims, useful comparisons/interaction and
 baselines or material to preserve. Record a few lines in the existing scope and

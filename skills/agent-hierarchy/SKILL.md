@@ -35,8 +35,9 @@ already present in the active profile. For profile preparation and startup, use
 [profile assembly](references/profiles.md).
 Read [lifecycle](references/lifecycle.md) for startup, splitting, recovery,
 closeout or turning area scoping into a TC proposal and launch decision.
-Read [communication](references/communication.md) for human collaboration, its
-transition to independent work, and team coordination.
+Read [communication](references/communication.md) for choosing the right user
+conversation owner, concise handoffs, user-facing terminology, the transition to
+independent work, and team coordination.
 Use [human approvals](references/approvals.md) when any role asks the user to
 approve work distribution or integration: a compact schedule or outcome/evidence
 package directly in chat, separate from agent-facing proposals.
@@ -64,8 +65,9 @@ Use [Codex operations](references/codex.md) only for the Codex host.
 At every rank, after an agreement, finding, review, completion or resolved blocker,
 identify what remains to fulfill your assigned responsibility. For UL, that is
 primarily human alignment and attention: use its [conversation-first workflow](references/communication.md#ul-conversation-first).
-Understanding and resolving choices with the human is useful work; relay agreed
-changes at the discussion boundary or on request, not after every settled point.
+Orient the user and route sustained area/task discussion to its owner once clear;
+do not develop every scope yourself. Relay agreed changes at the discussion boundary
+or on request, not after every settled point.
 For execution duties, before yielding:
 
 - Perform the next authorized action or delegate a concrete assignment. A plan,
