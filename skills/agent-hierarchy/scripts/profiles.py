@@ -52,12 +52,12 @@ def render_profiles(skill=SKILL):
         # TOML multiline basic strings preserve readable generated diffs. Escape
         # quotes/backslashes so source text cannot terminate the string or add keys.
         escaped = instructions.replace('\\', '\\\\').replace('"', '\\"').replace('\t', '\\t')
-        lines = [HEADER.rstrip(), '# Complete instructions; project model and permissions are inherited.',
+        lines = [HEADER.rstrip(), '# Complete instructions; model, permissions and root service tier are inherited.',
                  'name = ' + json.dumps(name),
                  'description = ' + json.dumps(description, ensure_ascii=False)]
         if effort is not None:
             lines.append('model_reasoning_effort = ' + json.dumps(effort))
-        lines.extend(['service_tier = "default"', '', 'developer_instructions = """', escaped + '"""', ''])
+        lines.extend(['', 'developer_instructions = """', escaped + '"""', ''])
         result[filename] = '\n'.join(lines)
     return result
 

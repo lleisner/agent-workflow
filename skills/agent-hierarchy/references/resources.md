@@ -83,8 +83,11 @@ be attributed correctly, keep Standard and state the limitation once. Do not
 silently leave background work on Fast or create repeated user approval prompts.
 
 Specify and verify the intended tier through supported host controls; a prompt
-requesting Standard is not a runtime setting. Do not assume children inherit the
-intended tier or change the account-wide default to configure one child. If the
+requesting Standard is not a runtime setting. Native custom children follow the
+root session's preference; their profile cannot override it. Keep that root on
+Standard for autonomous work, and do not assume a conversational Fast toggle is
+isolated from its native subtree. Verify the selected route rather than changing
+account-wide defaults to configure a child. If the
 launch tool lacks the control, use a supported route or surface that limitation
 before launching costly work. See [Codex operations](codex.md).
 

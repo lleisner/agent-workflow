@@ -28,7 +28,11 @@ them. Copies of the installed skill remain self-contained.
 ## Settings and adoption
 
 The pilot assets inherit the selected model and project permissions by omitting
-model, sandbox and approval-policy overrides. They request Standard service tier.
+model, sandbox and approval-policy overrides. Standard is the startup policy,
+not a custom-profile override: native children follow the root session's service
+tier. Set and verify Standard on the root through supported host controls before
+launching independent work. Do not place `service_tier` in child profiles to imply
+that it enforces the policy.
 Worker/reviewer request medium reasoning, TC/AC and AC+TC high, and EL, PL+EL and
 UL xhigh. UL's xhigh is a fallback: preserve any already agreed project-specific
 setting on adoption. Standalone executive PL inherits effort pending a separate
@@ -73,6 +77,22 @@ Prefer project scope for project-specific policy. Leave unrelated profiles intac
    settings, owned workspace, session identity and required user/message access.
    Record observed support and unresolved limitations. A valid TOML file or a
    successful message queue operation is not evidence of all these behaviors.
+
+### Observed route limitation (CLI 0.162.0 / daemon 0.162.1)
+
+An isolated trial loaded assembled AC/UL instructions through app-server
+`thread/start`'s `developerInstructions`, with reasoning in the supported config
+and Standard via `serviceTier`. The focused assignment was a separate turn.
+The independent UL successfully contacted the independent AC. This is a verified
+configuration mapping, not native custom-agent name selection or a packaged launcher.
+
+The exposed native spawn tool had no custom-profile selector. An ordinary native
+child used as an access control was readable, but direct input from an independent
+UL was rejected even after its parent resumed. Do not use that native-child route
+for a role requiring direct user/UL contact, or claim that installing its TOML
+changes this restriction. Native helpers may still communicate through their
+parent. Human writable attachment remains a separate check; a menu listing and
+`canAcceptDirectInput` metadata are not sufficient proof.
 
 For resuming or splitting, follow [lifecycle](lifecycle.md). Existing sessions do
 not automatically adopt an edited profile. A combined occupant may retain its

@@ -102,8 +102,10 @@ python3 skills/agent-hierarchy/scripts/profiles.py --check
 
 These commands only regenerate/check bundled assets. Skill installation does not
 install them as active Codex profiles. Adoption must preserve project settings,
-existing occupants and local customizations. Effective native loading and direct
-human access on the selected runtime route remain to be tested.
+existing occupants and local customizations. The isolated trial verified applying
+assembled instructions/settings to independent sessions and UL-to-AC messaging.
+The tested native-child route rejected direct UL input and exposed no custom-profile
+selector. Writable human attachment remains unverified; see [runtime evidence](docs/VALIDATION.md).
 
 ## Maturity
 

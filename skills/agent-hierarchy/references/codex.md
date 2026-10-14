@@ -60,8 +60,10 @@ switch to `default` through the `thread/settings/updated` notification. It did n
 benchmark latency, charges or persistence after reattachment.
 
 The currently exposed `create_thread` and native `spawn_agent` wrappers have no
-service-tier argument. Their child-tier inheritance was not established by that
-probe. Do not pass invented arguments or claim prompt text sets the tier. Use a
+service-tier argument. Current [custom-agent documentation](https://learn.chatgpt.com/docs/agent-configuration/subagents#custom-agent-file-schema)
+says native children follow the root session's preference; child profile files do
+not override the tier. The earlier probe did not measure this inheritance. Do not
+pass invented arguments or claim prompt text sets the tier. Use a
 verified host route before the first model turn, or ask for the needed host/user
 setting when that route is unavailable. Do not take over an active session's
 writer merely to alter settings. These controls do not automatically detect human

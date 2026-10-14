@@ -127,7 +127,7 @@ class ProfileAssemblyTests(unittest.TestCase):
         self.save_manifest()
         parsed = tomllib.loads(profiles.render_profiles(self.skill)['lower.toml'])
         self.assertEqual(parsed['developer_instructions'], self.parts['common.md'] + '\n\n' + content + '\n')
-        self.assertEqual(set(parsed), {'name', 'description', 'developer_instructions', 'service_tier'})
+        self.assertEqual(set(parsed), {'name', 'description', 'developer_instructions'})
 
     @unittest.skipIf(tomllib is None, 'TOML roundtrip requires Python 3.11+')
     def test_real_profiles_settings_and_single_combined_consistency(self):
@@ -140,7 +140,7 @@ class ProfileAssemblyTests(unittest.TestCase):
             data = rendered[name + '.toml']
             self.assertEqual(data['name'], name)
             self.assertEqual(data.get('model_reasoning_effort'), effort)
-            self.assertEqual(data['service_tier'], 'default')
+            self.assertNotIn('service_tier', data)
             self.assertNotIn('model', data)
             self.assertNotIn('sandbox_mode', data)
             self.assertNotIn('approval_policy', data)
