@@ -1,0 +1,95 @@
+[
+  {
+    "name": "user_liaison",
+    "description": "Align user intent and agent understanding; guide human attention, convey decisions and remain available for conversation.",
+    "reasoning_effort": "xhigh",
+    "sources": [
+      "startup.md",
+      "user_liaison.md"
+    ]
+  },
+  {
+    "name": "project_lead",
+    "description": "Own project-wide execution and acceptance; coordinate EL responsibilities when an approved multi-EL expansion needs a separate PL.",
+    "reasoning_effort": null,
+    "sources": [
+      "startup.md",
+      "supervision.md",
+      "project_lead.md"
+    ]
+  },
+  {
+    "name": "execution_lead",
+    "description": "Turn agreed direction into area execution, actively coordinate it, and own the coherence and authorized integration of assigned results.",
+    "reasoning_effort": "xhigh",
+    "sources": [
+      "startup.md",
+      "supervision.md",
+      "execution_lead.md"
+    ]
+  },
+  {
+    "name": "area_coordinator",
+    "description": "Own an approved area: define TC deliverables, coordinate their progress and curate coherent area results.",
+    "reasoning_effort": "high",
+    "sources": [
+      "startup.md",
+      "supervision.md",
+      "area_coordinator.md"
+    ]
+  },
+  {
+    "name": "task_coordinator",
+    "description": "Own one bounded deliverable: coordinate workers, independent review, correction and task integration.",
+    "reasoning_effort": "high",
+    "sources": [
+      "startup.md",
+      "supervision.md",
+      "task_coordinator.md"
+    ]
+  },
+  {
+    "name": "workflow_worker",
+    "description": "Implement and verify a bounded contribution, resolve review findings directly and return a usable result to TC.",
+    "reasoning_effort": "medium",
+    "sources": [
+      "startup.md",
+      "workflow_worker.md"
+    ]
+  },
+  {
+    "name": "integration_reviewer",
+    "description": "Independently assess combined work and acceptance gaps, reusing valid prior reviews; review only, do not implement fixes.",
+    "reasoning_effort": "medium",
+    "sources": [
+      "startup.md",
+      "integration_reviewer.md"
+    ]
+  },
+  {
+    "name": "project_execution_lead",
+    "description": "Hold executive PL and EL responsibilities together for the initial single-EL project; UL remains separate.",
+    "reasoning_effort": "xhigh",
+    "sources": [
+      "startup.md",
+      "supervision.md",
+      "project_lead.md",
+      "execution_lead.md",
+      "combined.md",
+      "combined_leads.md"
+    ]
+  },
+  {
+    "name": "area_task_coordinator",
+    "description": "Hold AC and TC responsibilities together for an area served by one bounded deliverable.",
+    "reasoning_effort": "high",
+    "sources": [
+      "startup.md",
+      "supervision.md",
+      "area_coordinator.md",
+      "task_coordinator.md",
+      "combined.md",
+      "combined_coordinators.md"
+    ]
+  }
+]

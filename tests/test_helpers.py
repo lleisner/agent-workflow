@@ -208,6 +208,17 @@ class WorktreeTests(unittest.TestCase):
 
 
 class MappingTests(unittest.TestCase):
+    def test_mapping_without_accounting_and_with_optional_ledger(self):
+        data = json.loads((ROOT/"skills/agent-workspace/assets/project.json").read_text())
+        data["resources"].pop("ledger", None)
+        self.assertFalse(mapping.validate(data)[0])
+        data["resources"]["ledger"] = ".private/allowances/task.json"
+        self.assertFalse(mapping.validate(data)[0])
+        for invalid in (None, "", "   ", 42, []):
+            data["resources"]["ledger"] = invalid
+            self.assertIn("resources.ledger must be a nonempty string when supplied",
+                          mapping.validate(data)[0])
+
     def test_custom_mapping_and_ungranted_example(self):
         data = json.loads((ROOT/"skills/agent-workspace/assets/project.json").read_text())
         data["records"]["overview"] = "existing/custom-plan.md"

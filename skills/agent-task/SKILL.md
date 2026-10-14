@@ -12,7 +12,10 @@ it. Use the project's conventions rather than requiring the companion skills.
 ## Define and release
 
 Use assets/task.md as a compact starting point. Identify outcome/non-goals,
-acceptance, dependencies, owner/area, integration target, authority and allowance.
+acceptance, dependencies, owner/area, integration target, authority and resource
+policy. Numerical allowances are optional; explicit limits remain binding.
+Anticipate evidence for any human integration decision, including baselines or
+test material to preserve.
 An initiative spanning areas is decomposed above TC; it is not one cross-area task.
 The responsible coordinator judges readiness and dependency strategy within the
 approved scope. Priority alone does not grant permission or budget.
@@ -38,7 +41,7 @@ Serialize dispatch within a scope using its responsible coordinator. If another
 claim appears, resolve it there; a status label alone is not an atomic lock.
 
 Give concurrent writers isolated assigned worktrees. Declare expected component/
-interface overlap and let the responsible coordinator agree a division or sequence
+interface overlap and let the responsible coordinator divide or sequence
 affected work. Keep unrelated authorized work moving.
 
 Each assignment updates its own short report using assets/report.md. Report only

@@ -2,7 +2,8 @@
 
 A project and its persistent leadership do not need lifetime token budgets. Setup
 and ordinary conversations have no mandatory numeric cap; respect any explicit
-user limit. Put allowances on autonomous tasks, initiatives or investigations,
+user limit. Numerical allowances are optional. When enabled, put them on
+autonomous tasks, initiatives or investigations,
 including their coordination and helpers. An unrelated experiment's spending or
 hold does not govern a new project.
 
@@ -51,11 +52,15 @@ adopting a rank-based profile, this is a starting point to evaluate in the pilot
 | --- | --- |
 | Worker or specialist | medium |
 | Task coordinator | high |
-| Area coordinator or execution lead | xhigh (extra high) |
+| Area coordinator; AC+TC | high |
+| Execution lead; executive PL+EL | xhigh (extra high) |
+| User Liaison | Established setting; xhigh fallback |
+| Standalone executive PL | Inherit pending separate launch decision |
 
-PL retains its user-agreed strategic setting; xhigh is a reasonable initial choice
-when none is established. Combined roles use the setting appropriate to the work
-they are undertaking. These are configurable defaults, not quality guarantees:
+Preserve UL's established former-PL setting. The bundled combined profiles request
+the listed defaults; switching duties in a prompt does not switch host settings.
+Standalone PL deployment remains deferred until multiple ELs are needed/authorized.
+These are configurable defaults, not quality guarantees:
 a coordinator can assign higher effort to difficult investigation, security review
 or integration reasoning within its authority/allowance. Specialist status alone
 does not make an assignment easy. Record consequential exceptions in the assignment.

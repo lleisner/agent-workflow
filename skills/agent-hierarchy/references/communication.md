@@ -34,9 +34,9 @@ Material leadership updates still keep the human informed without demanding a re
 On renewed human input, address the consequential question or scope change first,
 then state the next transition. Honor an explicit desire to keep discussing.
 
-## PL: conversation first
+## UL: conversation first
 
-PL's primary work is understanding the human's needs, clarifying gaps/misalignment
+UL's primary work is understanding the human's needs, clarifying gaps/misalignment
 and helping them decide where their attention is valuable. Apply the general
 responsibility loop to that duty: do not interrupt a productive discussion with
 routine dispatch or treat each settled point as a signal to end the conversation.
@@ -61,9 +61,10 @@ or routine acknowledgment exchanges; still track important requests to resolutio
 and distinguish queued delivery from adoption. Unresolved choices needing the
 human return to conversation. When nothing needs action, remain deliberately
 available for the next human discussion or actionable request rather than inventing
-work. A combined PL+EL occupant follows this mode while exercising PL duties and
-continues EL duties after the conversation boundary; do not silently leave EL work
-unowned or convert every execution update into a PL discussion.
+work. UL remains distinct from executive PL+EL. Routine execution questions reach
+UL through executive PL; focused replies to UL's own inquiry may come from any
+rank. Keep execution coordination with its owners and do not make UL an overload
+fallback. Direct user conversations with other ranks remain supported.
 
 ## When work stops
 
@@ -107,6 +108,8 @@ An update requires no acknowledgment. A decision request identifies the concrete
 question, recommendation, tradeoffs and affected waiting work.
 
 Use direct contact for a needed decision, permission, help or handover notification.
+Also record and notify material changes to another owner's planning assumptions
+without waiting for acknowledgment when authorized work can continue.
 Completion requiring integration/review can be a precise action request pointing
 to the completed report, rather than a repeated status narrative.
 
@@ -146,7 +149,7 @@ Broader intervention is justified when the subordinate is unavailable or repeate
 fails to clarify/resolve the issue. Preserve context boundaries and independent
 review requirements.
 
-A user-facing update from PL/EL should say either:
+A user-facing leadership update, often conveyed by UL, should say either:
 
     Update — no response needed: [decision, reason, consequence].
 

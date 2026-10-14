@@ -1,6 +1,6 @@
 ---
 name: agent-hierarchy
-description: Establish, operate, split or resume a human-directed agent hierarchy with project lead, execution lead, area coordinator, task coordinator, worker and specialist roles. Use for delegated team work, role handovers, focused startup context or shared allowances; not for ordinary solo edits unless requested.
+description: Establish, operate, split or resume a human-directed agent hierarchy with a user liaison, executive project/execution leads, area/task coordinators, workers and focused helpers. Use for delegated team work, role handovers, focused startup context or shared allowances; not for ordinary solo edits unless requested.
 ---
 
 # Agent hierarchy
@@ -29,15 +29,17 @@ Allowances belong to bounded autonomous work, not persistent role identities or
 an indefinite project. Honor limits the user actually set.
 The companion agent-workspace skill can help but is not required.
 
-For your assigned role, read only the corresponding section of
-[roles](references/roles.md), the relevant project brief and current decisions.
+Use [role/profile selection](references/roles.md) for the assigned active duties.
+Read the relevant project brief and current decisions; do not reload role sources
+already present in the active profile. For profile preparation and startup, use
+[profile assembly](references/profiles.md).
 Read [lifecycle](references/lifecycle.md) for startup, splitting, recovery,
 closeout or turning area scoping into a TC proposal and launch decision.
 Read [communication](references/communication.md) for human collaboration, its
 transition to independent work, and team coordination.
 Use [human approvals](references/approvals.md) when any role asks the user to
-approve work distribution: a compact schedule directly in chat, separate from
-agent-facing proposals.
+approve work distribution or integration: a compact schedule or outcome/evidence
+package directly in chat, separate from agent-facing proposals.
 Use [resources](references/resources.md) when allocating or accounting for usage.
 Use [Codex operations](references/codex.md) only for the Codex host.
 
@@ -48,7 +50,7 @@ Use [Codex operations](references/codex.md) only for the Codex host.
 - Decide operational tactics within the grant. Escalate changed strategic outcomes,
   additional authority or resources you cannot grant; do not escalate every routine
   sequencing or implementation choice.
-- Delegate detailed work so leadership remains available for human collaboration.
+- Delegate detailed work while retaining ongoing coordination and outcome ownership.
   A helper's recommendation informs your judgment; it does not replace it.
 - Update the appropriate durable report for meaningful changes. Direct requests
   are for decisions/permission/blocker help, not routine progress acknowledgments.
@@ -60,8 +62,8 @@ Use [Codex operations](references/codex.md) only for the Codex host.
 ## Carry responsibility forward
 
 At every rank, after an agreement, finding, review, completion or resolved blocker,
-identify what remains to fulfill your assigned responsibility. For PL, that is
-primarily human alignment and attention: use its [conversation-first workflow](references/communication.md#pl-conversation-first).
+identify what remains to fulfill your assigned responsibility. For UL, that is
+primarily human alignment and attention: use its [conversation-first workflow](references/communication.md#ul-conversation-first).
 Understanding and resolving choices with the human is useful work; relay agreed
 changes at the discussion boundary or on request, not after every settled point.
 For execution duties, before yielding:
@@ -90,6 +92,8 @@ wake mechanisms; ending a turn does not itself arrange an unattended restart.
 
 ## Launch within the grant
 
+Select and verify the appropriate [profile route](references/profiles.md) before
+launch. Assets are not installed merely by installing the skill.
 Use a fresh, focused brief: role/scope, supervisor, authority, applicable resource policy,
 relevant records, workspace, reporting destination and immediate responsibility.
 Apply the project's model, reasoning and speed policy; Standard is the default.
@@ -108,18 +112,20 @@ Check runtime support instead of assuming native sub-agents are directly writabl
 by the user or hidden from the overview. Give user-facing roles appropriately
 addressable sessions. Temporary helpers need not be user-facing.
 
-For bounded autonomous work, every descendant, including hidden helpers, spends
-the delegating work scope's allowance. Spawning does not increase authority or
-funds. At exhaustion, preserve state and pause affected work without an extension.
+Every descendant, including hidden helpers, belongs to the delegating work scope.
+When numerical allowances are enabled, count usage within that allowance without
+double-counting. Spawning does not increase authority or funds. Preserve explicit
+limits; at exhaustion, checkpoint and pause affected work without an extension.
 
 ## Improve from use
 
-At meaningful checkpoints or closeout, capture a useful pilot lesson when one
-exists: what helped or hindered, the observed consequence, and a proposed small
-change. Consider both delegation and supervision: assignment clarity, reports,
-decision requests, coordination delays and allowance decisions. Keep it concise
-in the existing report; no separate audit, agent, questionnaire or retrospective
-is required for every task. Retain successful patterns as well as failure signals.
+At assignment closeout or role handoff/retirement, include brief pilot feedback
+in the existing report: coordination received/provided where applicable, what
+helped or hindered, its consequence, and an improvement or none identified.
+Record material friction during work rather than waiting for closeout. Consider
+assignment clarity, reports, decision requests, coordination delays and resource
+decisions. Uneventful work needs only a few lines; no separate audit, agent or
+questionnaire is required. Retain successful patterns as well as failure signals.
 
 Supervisors synthesize recurring/material patterns and assess their cause before
 changing structure. See [communication](references/communication.md) for waiting.

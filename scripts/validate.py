@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Dependency-free package checks; does not execute agents or remote writes."""
 import ast
+import importlib.util
 import json
 from pathlib import Path
 import re
@@ -23,7 +24,7 @@ for skill in skills:
     for path in skill.rglob("*"):
         if path.suffix == ".py":
             ast.parse(path.read_text(), filename=str(path))
-        if path.suffix not in (".md", ".json", ".yaml", ".py"):
+        if path.suffix not in (".md", ".json", ".yaml", ".py", ".toml"):
             continue
         text = path.read_text()
         if "/Users/" in text or "tmp-agent-comms" in text:
@@ -38,6 +39,14 @@ for skill in skills:
                     errors.append(str(path) + ": missing script " + ref)
     for path in skill.rglob("*.json"):
         json.loads(path.read_text())
+profile_spec = importlib.util.spec_from_file_location(
+    "workflow_profiles", ROOT / "skills/agent-hierarchy/scripts/profiles.py")
+profile_module = importlib.util.module_from_spec(profile_spec)
+profile_spec.loader.exec_module(profile_module)
+try:
+    errors.extend(profile_module.check_profiles())
+except (ValueError, OSError) as exc:
+    errors.append("Profile assembly: " + str(exc))
 if errors:
     print("\n".join(errors), file=sys.stderr)
     sys.exit(1)

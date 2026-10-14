@@ -54,3 +54,17 @@ of collision-proof locking.
 Choose a GitHub Project table/board if useful; it is a view over these issues.
 Define each field's authority once, avoiding duplicated mutable status in repo
 files. The initial helper does not create a Project or copy live state locally.
+
+## Closeout and current summaries
+
+Close accepted/integrated, canceled, duplicate or superseded issues with the
+disposition and relevant integration evidence or successor. Inactivity alone is
+not a closure reason. Preserve closed issues as searchable history. Coordination
+issues belong to their scope, survive occupant replacement, and close when that
+scope is retired or superseded.
+
+Maintain concise current summaries and editable reports instead of appending
+repeated snapshots. Preserve material decisions/grants in their canonical homes;
+remove finished work from active summaries while retaining useful historical links.
+Start reads from current summaries and fetch older evidence only when relevant.
+Issue closure does not authorize deleting sessions, worktrees or branches.

@@ -22,8 +22,7 @@ record locations, role ownership, canonical document reference, task tracker,
 integration targets, authority and resource policy. Ask about consequential gaps only.
 The hierarchy skill needs these answers, not particular filenames.
 
-For a new synthetic workspace, adapt assets/project.json and
-assets/WORKFLOW.md. They are optional starter assets, not an automatic migration.
+For a new workspace, adapt assets/project.json and assets/WORKFLOW.md. They are optional starter assets, not an automatic migration.
 Keep AGENTS.md short and point it to the agreement. Do not copy live project data
 into a reusable template or overwrite existing instructions.
 
@@ -48,10 +47,11 @@ checkout; leaf directories are worktrees.
 ## Ready to use
 
 Record the mapping, review/integration gates, model/resource policy, session
-operations and validation commands. Resolve missing start authority and a bounded
-allowance before autonomous task dispatch. Do not require a project-lifetime or
-setup allowance merely to prepare the workspace or start interactive leadership. Missing merge permission means human
-approval. Treat runtime capabilities as observed facts or explicit unknowns.
+operations and validation commands. Resolve missing start authority, bounded
+assignment and applicable resource policy before autonomous dispatch. Numerical
+allowances are optional; preserve all explicit existing limits. Do not require a
+project-lifetime or setup allowance merely to prepare the workspace or start
+interactive leadership. Missing merge permission means human approval. Treat runtime capabilities as observed facts or explicit unknowns.
 
 Provide a short setup result with record references and the next action. If the
 request also includes a running hierarchy and the bundled agent-workflow skill

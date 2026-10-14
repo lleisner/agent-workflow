@@ -17,7 +17,7 @@ def validate(data):
         "records": ("canonical_ref", "overview", "decisions", "agreement", "roles", "tasks", "reports"),
         "branches": ("integration", "stable", "worktree_root"),
         "authority": ("status", "start", "worker_to_task", "task_to_area", "area_to_project", "promotion"),
-        "resources": ("ledger", "model_policy", "dynamic_subscription"),
+        "resources": ("model_policy", "dynamic_subscription"),
         "runtime": ("adapter", "visible_sessions", "helpers"),
     }
     for section, fields in requirements.items():
@@ -34,6 +34,10 @@ def validate(data):
                 errors.append(section + "." + field + " must be a nonempty string")
     if errors:
         return errors, warnings
+    if "ledger" in data["resources"]:
+        ledger = data["resources"]["ledger"]
+        if not isinstance(ledger, str) or not ledger.strip():
+            errors.append("resources.ledger must be a nonempty string when supplied")
     if not re.fullmatch(r"[A-Z][A-Z0-9]{1,11}", data["project"]["prefix"]):
         errors.append("Project prefix must be 2-12 uppercase letters/digits")
     if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", data["project"]["repository"]):

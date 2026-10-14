@@ -33,8 +33,9 @@ needed. This does not replace the reconciliation required for recovery.
    Load evidence progressively. Ask a focused question for missing context.
 4. Reconcile actual worktree, GitHub and budget state before resuming. A disconnected
    occupant may still be working. Do not silently adopt its active work.
-5. Name the session and verify the communication route. A queued message is not
-   evidence that an idle recipient has processed it.
+5. Use the [profile startup procedure](profiles.md) for the selected host; do not
+   assume profile installation or loading. Name the session and verify communication.
+   A queued message is not evidence that an idle recipient has processed it.
 
 Example names:
 
@@ -85,28 +86,26 @@ Use the existing area/task records; no extra planning registry is needed.
 
 ## Split a combined role
 
-The user initiates PL/EL splitting. EL can initiate AC/TC splitting within its
-grant. Repeated unavailability, competing context and delayed coordination are
-signals, not fixed thresholds.
+Use the [combined-role transfer rules](profile-sources/combined.md) and the
+applicable [PL+EL](profile-sources/combined_leads.md) or
+[AC+TC](profile-sources/combined_coordinators.md) boundary. The existing occupant
+keeps the lower role, session, workspace and running team. A new occupant takes
+the upper role from concise current records, not a full conversation inheritance.
 
-- The existing agent retains the lower execution role, its workspace and workers.
-- Create the upper role with a fresh brief from existing published records.
-  For PL/EL separation, the existing occupant keeps execution and running work;
-  the new PL receives goals/preferences, settled priorities, a concise project
-  overview, pending human decisions/requests and contact routes. Give it the
-  [PL alignment duties](roles.md#pl--project-lead) and conversation-first workflow,
-  not a second execution-management assignment or an extra mandatory approval gate.
-- Record the intended new ownership and the transition state. Notify the existing
-  occupant and relevant peers; track acknowledgment in the scope record.
-- Let the new supervisor orient and collaborate immediately. Resolve overlapping
-  decision authority explicitly while acknowledgment is pending. Do not claim the
-  lower agent has changed behavior before it has received the change.
-- Keep existing assignments and grants valid unless explicitly revised. Do not
-  move branches or reparent native sessions merely to match the logical tree.
-- Close the transition record once affected roles acknowledge the arrangement.
+Record the intended ownership and pending transfer in the existing scope record.
+Deliver the exact transferred/retained duties, contact routes, current decisions
+and grants to both occupants and affected roles. Prepare the new supervisor while
+the incumbent is busy, but exclusive upper-role ownership takes effect only after
+the incumbent confirms relinquishment. Reconcile pending decisions; unaffected
+lower-role work continues. This one-time confirmation is not a routine reporting
+acknowledgment requirement. Preserve limits and independent-review obligations.
 
-The coordinator chooses practical timing within these responsibilities; this
-procedure does not require a new lock service or a project-wide pause.
+Keep the existing combined profile if necessary; its released duties are inactive.
+A later ordinary replacement uses the appropriate specialized profile. Do not
+assume live profile replacement, native reparenting or changed tool permissions.
+Separating AC+TC inside an existing area is distinct from dividing the area into
+two; the latter retains its configured user gate. Separate executive PL requires
+approved need for multiple ELs and does not add a mandatory integration branch.
 
 ## End or replace
 

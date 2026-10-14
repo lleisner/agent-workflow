@@ -1,6 +1,8 @@
-# Human approval schedules
+# Human approvals: work plans and integration
 
-Use this when any role, including TC, needs the human to approve a work plan.
+Use this when any role, including TC, needs a human start or integration decision.
+The schedule below is for work plans; integration uses the outcome-evidence rule
+at the end. Start proposals can reuse recent discussion without repeating it.
 Only ask for genuinely missing authority. Deliver the decision view directly in
 chat: short Markdown table and, for more complex dependencies, a small readable
 map. Plain text is a valid map when diagrams do not render. Do not require opening
@@ -78,3 +80,16 @@ not estimate them; do not turn hypothetical counts into a live approval request.
 are included, the stopping outcome and any retained production gate. A negative or
 inconclusive study finding can be a valid completed deliverable. Use real proposal
 values here before asking the human to decide.
+
+## Integration decisions
+
+Use the [shared human integration-evidence contract](profile-sources/supervision.md#6-prepare-evidence-for-human-integration-decisions).
+Assume the user has not followed the work. The requesting role prepares a compact,
+self-contained chat package that demonstrates the intended outcome, includes
+material discoveries/limitations and asks for an exact integration authorization.
+Suitable evidence may be a comparable before/after table or a usable preview with
+a short path to try. Finish ordinary repairs and required review first; preserve
+the candidate revision and record the actual grant/conditions. UL can present the
+decision, but evidence preparation stays with its execution owner. Plan evidence
+during scoping in the existing assignment record. This applies at the user's chosen
+integration gates and introduces no extra approval requirement.

@@ -4,6 +4,12 @@ The role protocol is independent of this adapter. Check the installed CLI's help
 and authentication mode. Use the user's existing subscription login for a
 subscription-only pilot; do not configure an API key or change account settings.
 
+## Profiles
+
+Use [profile assembly and startup](profiles.md) to select the generated asset and
+verify the supported loading route. A profile is not installed by its presence in
+the skill bundle, and a plain role brief is not proof of native profile loading.
+
 ## Visible sessions
 
 Use separately addressable sessions for roles requiring direct human input when

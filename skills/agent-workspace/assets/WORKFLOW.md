@@ -32,8 +32,9 @@ is governed by its own grant; PL is not automatically the final merger.
 ## Resources and runtime
 
 Setup and ordinary leadership conversations have no required numeric cap. Record
-allowances for bounded autonomous work, model/rate choices, ledger location,
-observation owner and threshold behavior. Include all helpers within that work.
+the applicable bounded-work resource policy, model choices, observation owner
+and any explicit limits. When numerical allowances are enabled, also record rates,
+ledger location and threshold behavior. Include all helpers within that work.
 A time-window project allocation is optional; its reset never refills task limits. State which runtime operations have
 actually been tested, which need human participation, and the host's awake setup.
 

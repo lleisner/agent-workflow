@@ -2,10 +2,12 @@
 
 The setup facilitator owns discovery, configuration and initial routing. EL owns
 ongoing execution after handoff; it may later delegate setup changes to a focused
-helper. PL owns human/project alignment and attention, with conversation first
-and agreed changes relayed at a discussion boundary or on request. Neither role
-needs the whole setup conversation. The invoking session normally does the setup
-itself, avoiding an extra agent merely to ask the same questions.
+helper. UL owns user/project understanding and attention, with conversation first
+and agreed changes relayed at a discussion boundary or on request. Executive PL
+owns project-wide execution, initially sharing an occupant with EL. These contacts
+receive focused context rather than the whole setup conversation. The invoking
+session normally does the setup itself, avoiding an extra agent merely to ask the
+same questions.
 
 ## 1. Discover before asking
 
@@ -40,7 +42,7 @@ Use the workspace agreement's concerns as a map, not a mandatory questionnaire:
 | Authority | Initial setup/launch scope and start/review/integration gates |
 | Resources | Billing mode, bounded-work allowance policy, applicable explicit limits and observation owner |
 | Workspaces | Actual integration targets, ownership and worktree organization |
-| Initial contact | Combined PL+EL or separate contacts, according to the project and user |
+| Initial contact | UL plus executive PL+EL for a new team; reuse existing occupants and explicitly reconcile older role meanings |
 
 For a new project without settled product direction, establish enough context to
 give leadership a useful first conversation; do not conduct the entire product
@@ -72,6 +74,14 @@ choice to a PL/EL simply to end the walkthrough.
 
 ## 4. Verify the handoff can work
 
+Use the hierarchy skill's profile-selection/startup procedure. Select the active
+single/combined duties, prepare the required reviewed profile assets during authorized
+adoption, and check the chosen host's loading route before launching. Verify actual
+instructions/settings and human access; a role title in a prompt does not establish
+native profile loading. An unsupported route is a concrete setup limitation, not
+a reason to silently launch with missing instructions. Existing occupants do not
+automatically change roles or settings because a profile file was edited.
+
 Use existing authentication and runtime capabilities. Check the selected tracker,
 document references and workspace paths. Inspect current tool support for creating,
 naming, addressing and waking independent visible sessions; use the available
@@ -98,7 +108,9 @@ Use already authorized launch resources; ask for a missing grant as part of this
 walkthrough. An explicitly exhausted scope stays held until its grant changes.
 Do not carry that hold into unrelated work or require a numeric setup/project cap.
 Starting an interactive leadership role is distinct from dispatching autonomous
-work, which needs a bounded allowance. Weekly project allocations are optional.
+work, which needs a bounded assignment and the project's applicable resource
+policy. Numerical allowances and weekly project allocations are optional; explicit
+existing limits still bind.
 Describe any test not performed as unverified.
 
 ## 5. Create or reconnect the initial contact

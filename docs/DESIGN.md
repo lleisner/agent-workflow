@@ -1,184 +1,174 @@
 # Operating model
 
-## Boundaries
+## Responsibilities and project boundaries
 
-The hierarchy is reusable across repository layouts. Workspace setup maps logical
-records to project locations; it does not impose a universal directory tree.
-AGENTS.md is a short entry point into the project agreement, not a live task log.
-Roles, branch responsibility, workspace allocation and merge authority are
-separate concepts.
+The hierarchy is reusable across repository layouts. Workspace setup maps goals,
+decisions, records, permissions and resources to the project's existing locations.
+AGENTS.md is an entry point, not a live task log. Logical responsibility, session
+identity, branch ownership and permission to act are separate.
 
-## Guided entry point
+User Liaison (UL) aligns the user's conception with the agents' conception of the
+project. It clarifies intent and underspecification, answers project questions,
+develops/conveys decisions, follows important requests through and guides human
+attention. Conversation comes first; meaningful decisions are checkpointed and
+relayed at a natural boundary or on request. Tentative ideas remain distinguishable.
+Focused direct contact with any rank is possible without hidden changes to others'
+commitments. UL remains outside autonomous execution and does not coordinate ELs.
 
-One invocation of agent-workflow owns the onboarding walkthrough, composing the
-independent hierarchy, workspace and task capabilities internally. The user answers
-consequential project-specific questions; the agent discovers factual settings,
-performs setup and generates/delivers the handoffs. Users do not need to know the
-skill sequence or write informed prompts to transfer setup responsibility.
+One logical executive Project Lead (PL) owns project-wide execution and acceptance.
+EL coordinates ongoing work across its assigned areas; AC coordinates and curates
+TC deliverables within an area; TC owns one integrated deliverable and its workers.
+Specialists are bounded helpers available at any rank, not another hierarchy rank.
+The [role map](../skills/agent-hierarchy/references/roles.md) links the authoritative
+role instructions. Overview prose does not replace those instructions.
 
-The invoking agent normally acts as a temporary setup facilitator. This is a duty,
-not a seventh rank or an additional permanent supervisor. Leadership starts with
-fresh focused context after the setup. EL owns ongoing operations after handoff
-and can delegate later configuration work to a setup specialist.
+Initially one occupant holds executive PL+EL, with UL separate. Separate executive
+PL is useful only for an authorized expansion to multiple ELs. EL ownership is by
+initiative, with one primary EL per AC. PL coordinates wider priorities/resources;
+ELs can make ordinary peer handoffs directly. Counts of areas are not automatic
+staffing thresholds. Multi-EL runtime operation remains deferred for the pilot.
 
-Setup asks one unresolved question at a time, with a recommendation and tradeoff,
-and reuses accepted decisions. It records a concise recovery checkpoint and
-resumes existing occupants/workspaces/grants on repeat invocation. Creation of
-the agreement alone is not completion: finish the authorized initial role handoff
-and orient the user, or explicitly identify the remaining blocker.
+An initiative may span areas. A numbered ready-pool task belongs to one area and
+one TC; worker assignments belong beneath it. User gates configure which decisions
+require approval, without transferring decision ownership out of the hierarchy.
+Internal subtree reorganization needs no inherent parent approval when outcomes,
+commitments, authority, resources and review obligations remain intact. Material
+coordination changes are communicated; wider boundary changes involve their owners.
+The current pilot retains user gates on new/split areas and added executive capacity.
 
-A planning launch carries an immediate objective: brief orientation, then the
-next consequential unresolved question using known context. When already scoped,
-advance the authorized next step or request the actual missing grant. Acknowledgment
-is part of that response, not a separate waiting phase unless explicitly requested.
-Routine activation reuses records and updates the registry once; unrelated
-workflow publication is not a prerequisite. This changes neither implementation
-permissions nor the ownership checks needed for recovery.
+## Reusable instructions and assembly
 
-## Role boundaries
+Role-specific sources and the shared supervision contract are authored once in
+the hierarchy skill. A small assembler produces complete native TOML profiles.
+Combined profiles contain both full role responsibilities and transfer rules;
+there is no dependency on native multiple-profile inheritance or hot swapping.
+UL, workers and review helpers receive focused instructions, not the entire
+supervisor contract. Skills retain startup, coordination and lifecycle procedures;
+project records retain live assignments and actual authority. Generated assets are
+not installed automatically. See [assembly](../skills/agent-hierarchy/references/profiles.md).
 
-PL owns human/project alignment, EL execution planning, AC area alignment, TC a
-task deliverable, W implementation and S focused expertise. PL's five duties are
-maintaining alignment, answering project questions, developing/conveying decisions,
-following through on human requests, and directing human attention where it is
-most valuable. Human collaboration is principally with PL/EL and through AC for
-an area, with direct access to visible workers.
+The shared relationship is clarify, delegate, coordinate, curate and integrate.
+Supervisors remain responsible while execution is underway: address dependencies,
+drift, contention and avoidable waiting, not just initial assignments and final
+merges. Each role critically evaluates requests against its broader scope and
+respects evidence held below. It advances known authorized work, requests a real
+missing decision or states a genuine waiting condition. No continuous polling or
+manufactured work is required. UL's useful work includes deliberate availability.
 
-PL is conversation-first: clarify needs and gaps, preserve lightweight meaningful
-checkpoints, and relay agreed changes at a natural discussion boundary or on
-explicit request. Keep tentative ideas separate and mark decisions not yet conveyed.
-Flag material consequences of delaying an instruction during the conversation.
-Brief asynchronous delivery and follow-through keep PL available; routine dispatch,
-integration and continuous monitoring do not belong to it.
+## Guided entry and continuity
 
-PL can retrieve facts or convey agreed human instructions directly to any rank;
-affected coordinators/EL receive concise updates on changed commitments. This
-changes routing, not grants or execution ownership. EL owns operational priority.
-Existing priorities can be applied without reapproval; small adjustments on new
-facts may be resolved with PL when clearly aligned and within authority. Existing
-explicit human decisions and consequential new tradeoffs return to the human.
-PL is not an additional approval gate for routine authorized EL decisions.
+One agent-workflow invocation owns discovery, unresolved choices, workspace
+preparation and focused handoffs. The invoking session normally acts as temporary
+setup facilitator; users do not compose prompts or invoke a sequence of skills.
+Role startup supplies an immediate objective and useful first action/question,
+not an acknowledgment-only waiting phase unless requested. Scope already settled
+should lead to authorized work or the specific missing grant. Normal activation
+reuses scoped records and makes one registry update, not a whole-project reread.
 
-Active human collaboration prioritizes consequential intent/scope decisions that
-need the human. Once enough is settled, announce the transition to independent
-work and proceed under existing authority; ask only for a missing grant. Operational
-choices remain with the hierarchy, while nonurgent human questions can accumulate
-for the next useful discussion. A visible session is not always conversational.
+Reentry reconciles existing occupants, work, grants and records. No duplicated
+roles, renewed limits or migration to a template is implied. New occupants start
+with focused context. Verify actual profile loading, settings, communication and
+human access before claiming them; successful queueing alone is not receipt.
 
-Human approval requests at any rank use a compact schedule directly in chat,
-separate from detailed agent proposals. A table distinguishes immediate work from
-blocked stages; a small dependency map exposes intermediate handoffs and integration
-order. Coordinators plan parallel progress across their full known responsibility,
-with justified deferrals/serial work and aggregate staffing/resources. Store the
-resulting grant and conditions in the authoritative record, not a duplicate of the
-human document. The example's team size is not a default or execution grant.
+AC+TC can share an occupant when one TC deliverable covers the area's current work.
+On an authorized split, the existing occupant keeps the lower role, workspace and
+running team; a new occupant takes the upper role. Preparation can happen while the
+incumbent works. The new upper ownership becomes effective after the incumbent
+confirms relinquishment. This one-time transfer confirmation is distinct from
+routine reports. A retained combined profile may keep inactive upper instructions;
+active assignments determine responsibility. Do not replace both agents just to
+obtain pure profiles or assume native reparenting. A later replacement uses the
+appropriate profile. For PL+EL, separation accompanies approved multiple-EL need.
 
-Every supervisor assesses whether a subordinate's approach/request makes sense
-in its broader context. Agreement is a valid outcome; critical judgment does not
-require manufacturing objections or absorbing all subordinate detail.
+## Review, correction and integration
 
-Every rank advances its actual responsibility. For PL, clarifying human needs
-and decisions is that work; conveying changes follows the discussion boundary.
-Execution roles carry known work into authorized action/delegation or a concrete
-request for the missing decision. A status summary alone does not fulfill an
-unfinished responsibility. Genuine waiting, explicit pause, exhausted allowance
-and completion are valid stopping conditions; no continuous polling or invented
-work is required.
+Workers verify contributions and obtain built-in Codex code review through the
+agreed route. TC arranges independent integrated-result assessment, normally with
+the focused Integration Reviewer. AC, EL and PL assess combinations at their own
+scope, reusing valid lower coverage. Reopen affected coverage for changed behavior,
+requirements, assumptions, gaps or contrary evidence; a larger diff alone does not
+justify repeating every review. Critics are optional for an identified need.
 
-An initiative can span areas. A numbered task belongs to one area and one TC.
-Worker assignments belong beneath that task. Cross-area decisions belong above
-TC. Operational sequencing, interfaces, parallelism and investigations remain
-coordinator judgments within the grant.
+Reviewers remain independent and review-only. Named original repair owners handle
+ordinary corrections directly with the reviewer, without a coordinator relaying
+each message or a fresh whole-diff review after every fix. Findings must be judged
+against intended behavior and recorded trade-offs; scope/disagreement issues go to
+the responsible coordinator. Necessary repairs are completion work. Optional
+improvements go to the supervisor able to judge value and wider consequences.
+Continue while refinement makes meaningful progress; persistent failure requires
+reassessment rather than unlimited retries or weakened acceptance.
 
-## Records and context
+TC curates results before AC sees them; AC evaluates useful coherent area increments
+and returns deficiencies before human review. Several TC outputs can form an area
+increment while unrelated work continues. The pilot's intended integration preset
+allows AC to accept TC results and retains human approval for area-to-dev and
+dev-to-main integration. It is applied only through explicit project adoption;
+existing live grants and starter examples do not change themselves.
 
-Record each fact once in its authoritative home. Use GitHub issues for live tasks
-and reports in the starter workflow: one task issue, one editable comment per
-assignment, and separate AC/EL coordination issues for reports from their direct
-subordinates. Coordination issues never enter the ready pool.
+Each independent writer normally has an isolated worktree. TC integrates its task,
+AC its area where useful, and EL the designated project destination. Shared dev
+writes, including coordination docs, require exclusive turns. Prepare candidates
+and approvals before taking the turn; check current dev, validate the combined
+result and hand back a recorded clean state. Reconcile interrupted work before
+reuse. PL adds project-wide acceptance responsibility without another mandatory
+branch, merge or full technical review. A worktree lock is not a write mutex.
 
-Published strategy, briefs and durable decisions use a canonical branch, such as
-dev. Code and provisional implementation notes use area/task worktrees. Each
-role owns its scoped records. EL maintains an overview with links rather than
-transcribing every update. Publishing does not imply escalating.
+## Human decisions and evidence
 
-Routine supervisor-relevant reports update records without requiring a reply.
-Request a decision or help directly when needed. Superiors read current relevant
-summaries when coordinating. Reports contain implications at the receiver's scope;
-they do not concatenate child reports. Evidence is linked for inspection, not
-automatically loaded. Normally ask the responsible subordinate for clarification.
-Inspect directly for a compact fact or when the chain is failing.
+Human-facing proposals are compact and delivered in chat, separate from detailed
+agent reports. Start proposals may reuse recent scoping context and show the
+schedule, real dependencies, high-impact choices and exact authorization requested.
+Integration requests must stand alone: assume the user has not followed execution.
+Provide the outcome, demonstrated change, meaningful discoveries, suitable evidence
+or a usable interaction, limits/trade-offs and a specific recommendation/decision.
+A review-passed assertion does not demonstrate the outcome. Keep detailed evidence
+as optional depth and preserve decision-relevant uncertainty despite brevity.
 
-Capture meaningful human agreements and rationale when settled. New role
-occupants use fresh focused context and authoritative records, with additional
-material loaded as needed. Full conversation inheritance is exceptional.
+Anticipate this evidence during scoping: claims, useful comparisons/interaction and
+baselines or material to preserve. Record a few lines in the existing scope and
+assign evidence collection with the work. This adds neither a document nor a gate.
+The requesting execution owner prepares the package; UL curates the user's attention
+and obtains missing context without becoming another technical reviewer.
 
-## Lifecycle
+## Records, reporting and closeout
 
-Combine roles when useful. The user initiates PL/EL separation; EL can initiate
-AC/TC separation within authority and allowance. The current agent keeps the
-lower execution role, workspace and running workers; a new agent takes the
-supervisory role. Record the change, notify affected roles and track acknowledgment.
-Native spawn ancestry need not equal logical supervision.
+Use one canonical published home for durable direction/decisions and the selected
+tracker for live work. In the GitHub starter, a TC deliverable is one issue with
+editable assignment comments; separate coordination issues hold subordinate reports
+and stay out of the ready pool. Each role owns scoped records, not copies of every
+child report. Read concise current summaries and relevant evidence progressively.
 
-Visible hierarchy agents are human-accessible points of contact. Temporary review
-or promotion helpers may be sub-agents without direct human access. Keep them out
-of the routine overview where supported, while preserving results/accountability.
-Specialist status alone does not determine visibility.
+Routine changes update records; material changes to others' planning assumptions
+also receive concise notification without acknowledgment waits. Actual decisions,
+blockers and handoffs use direct contact. Synthesize implications at each level.
+Respect the normal escalation route: unresolved user-level choices reach UL via
+executive PL, while UL-initiated focused inquiries can receive direct replies.
 
-Use names such as W1 · PCT007 Edge-case tests · EL1/AC1/TC1. Roles persist across
-agent replacement. Workspace folders use stable area/task names, not occupants.
+Readiness, accepted completion and retirement remain distinct. The immediate
+supervisor arranges follow-up, deliberate retention or authorized retirement.
+Final chat output explains why work stopped, who owns the next step and what resumes
+it. Close accepted/integrated, canceled, duplicate or superseded issues with their
+disposition; inactivity alone does not justify closure. Preserve searchable history
+and material decisions while removing stale entries from current summaries.
+Session archive/delete and worktree cleanup remain separate scoped permissions.
 
-Every role's final chat message explains its valid stopping state, decision owner,
-user action needed and resumption condition. Accepted assignment completion triggers
-an immediate-supervisor decision on follow-up, deliberate retention or retirement;
-it does not justify an ownerless idle session. Standing leadership duties can
-justify retention. Results awaiting review remain distinct from accepted completion.
+## Resources and pilot limits
 
-## Authority and resources
+Model selection stays with the project. Bundled profiles request Standard, with
+medium worker/reviewer, high TC/AC and xhigh EL/PL+EL reasoning. UL preserves its
+established setting with xhigh fallback; standalone PL settings are deferred.
+Native overrides must be checked at adoption, not assumed from prompt text.
+Conversational acceleration remains conditional on verified host control/accounting.
 
-The user configures start and integration gates. The starter grants more autonomy
-to begin bounded work than to integrate results: for example approve an area
-scope/allowance once, while retaining approval of each task integration.
-Both gates can subsequently change independently. Missing merge authority means
-human approval. One agent filling two roles is not an independent reviewer.
+Numerical allowances are optional; explicit limits/holds always apply. When enabled,
+count own and descendant/helper consumption once, allocate from actual remaining
+funds and request reassessment before exhaustion. Replacement, splitting and quota
+reset do not restore task allowance. Estimated credits are not exact subscription
+percentages. No mandatory project-lifetime or setup budget is introduced.
 
-Each independently writing/integrating agent normally has an isolated worktree.
-TC integrates its task, AC may integrate its area, EL manages project integration.
-PL is not a mandatory final technical integration stage. EL or a delegated
-integrator performs promotion under the chosen gates. Read-only helpers need not
-receive worktrees.
-
-Setup and ordinary human/leadership conversations have no mandatory numeric cap.
-There is no default project-lifetime budget. Optional time-window project
-allocations remain distinct from cumulative task spending. Explicit user limits
-apply only to their stated scope.
-
-Task allowances are fixed and cumulative. Model/category-weighted estimated
-credits are not exact charges or subscription shares. Count own and descendant
-usage once; never add cached input or reasoning output again. Allocate from
-existing allowance. Release unspent allowance before reallocating it. Session
-replacement and subscription reset do not restore task spending.
-
-At roughly 80% consumption, or sooner when remaining work exceeds allowance,
-request reassessment. Supervisors assess the approach and value of further work,
-not just available funds. At exhaustion without an approved extension, checkpoint
-and pause affected work. Dynamic quota management is opt-in and not implemented
-by the initial fixed-accounting helper.
-
-## Pilot and later work
-
-Pilot the workflow in useful authorized work; a separate synthetic project is
-optional. Keep validation inputs non-sensitive and use the authorized billing
-mode. Record recurring friction in existing coordination records, distinguish
-project conventions from reusable mechanics and propose focused corrections.
-Validate communication,
-direct input, unattended wake, detach survival, role splitting and full usage
-attribution before asserting them. A strategy encoded in a skill is not proof
-that a runtime supports it. Automatic adoption of a departed coordinator's live
-workers is not a pilot requirement.
-
-Later: specialist skill libraries, optional subscription advisor, skill
-self-improvement, wider host support and a template repository extracted from a
-working practice setup. Improve from observed needs rather than adding ranks or
-infrastructure speculatively.
+Use useful authorized real work to test the fixed hierarchy. Record concise lessons
+about coordination received/provided and act on recurring evidence. Static package
+checks do not establish model judgment, unattended wake or direct human access.
+General recursive topology, council support, automatic subscription optimization,
+new orchestration infrastructure and a settings UI remain later work. The pilot
+should reveal when additional coordination earns its cost.

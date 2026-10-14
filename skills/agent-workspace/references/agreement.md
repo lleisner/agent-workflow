@@ -13,7 +13,7 @@ Answer:
 | Authority | Who may define/start work, allocate resources, review and integrate at each boundary |
 | Records | Canonical location AND branch/ref for published docs; task/report/role locations |
 | Runtime | How to create/address/name/wake sessions; user-facing vs helper visibility |
-| Resources | Bounded-work allowances and accounting owner, model/rate settings, explicit user limits; optional time-window project allocation |
+| Resources | Bounded-work resource policy, observation owner, model settings and explicit limits; optional numerical allowances/time-window allocation |
 | Git | Integration/stable targets, worktree root, ownership and evidence/check commands |
 | Recovery | Current occupant references, checkpoint locations and workspace preservation |
 
@@ -29,9 +29,15 @@ URLs. The canonical_ref describes which published document version is authoritat
 Resolve current records from that ref or the hosted version instead of silently
 using the copy in a task branch.
 
-The default permission example approves a bounded area's task starts but retains
-human approval at task integration. It is an example to be agreed with the user.
-Do not treat copying the asset as a grant.
+The pilot example allows task starts within approved area scope and coordinator
+acceptance of worker-to-task and task-to-area integration. Human approval remains
+at area-to-project integration and stable promotion. Record structural gates too:
+the pilot requires user approval for new/split areas and added executive capacity.
+These are settings to agree on adoption, not grants created by copying an asset.
+
+Numerical allowances are optional. Add resources.ledger only when using a ledger;
+the path alone neither sets a limit nor enables accounting. Preserve explicit
+limits in the authoritative grant even when no local ledger is used.
 
 Use a private, ignored host directory for native session logs and the local usage
 ledger. GitHub is the live task/report authority in this starter. Published grants
@@ -51,10 +57,14 @@ decisions independently of unfinished code when other work needs them.
 
 ## Template repositories
 
-Provide starter files only after a practice setup has been validated. Create new
-working branches from the generated repository's initial branch: GitHub's option
-to copy all template branches creates unrelated histories.
-# Worktree helper
+Adapt starter files when they help a new project; existing projects keep their
+useful conventions. Validate the mapping on bounded real work or a small fixture
+as appropriate. A separate practice project is not a prerequisite. A dedicated
+template repository remains optional later work. Create new working branches from
+the generated repository's initial branch: GitHub's option to copy all template
+branches creates unrelated histories.
+
+## Worktree helper
 
 After the scope owner assigns the branch and location:
 

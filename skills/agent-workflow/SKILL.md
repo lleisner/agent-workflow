@@ -6,7 +6,7 @@ description: Guide the user through setting up or resuming an agent team in a pr
 # Guided agent workflow
 
 Own the setup from this single invocation. Act as a temporary setup facilitator;
-this duty is not a new hierarchy rank and does not make you PL or EL. Keep the
+this duty is not a new hierarchy rank and does not make you UL, PL or EL. Keep the
 setup conversation here and launch leadership with fresh, focused context.
 Do not send the user away to compose instructions for another agent.
 
@@ -23,7 +23,7 @@ installed bundle or its source checkout; load each only when its phase needs it:
 - [agent-workspace](../agent-workspace/SKILL.md) maps records, permissions and
   workspaces without forcing a new repository layout.
 - [agent-hierarchy](../agent-hierarchy/SKILL.md) starts/resumes roles and handles
-  their scope, focused context, communication and handoffs.
+  their profile selection, scope, focused context, communication and handoffs.
 - [agent-task](../agent-task/SKILL.md) prepares the selected tracker and task/report
   conventions. Defining implementation tasks is only needed when already in scope.
 
