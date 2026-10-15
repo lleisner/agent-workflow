@@ -119,6 +119,13 @@ handles this at its next relevant coordination checkpoint, not by forwarding eve
 closeout to EL/the human. Ongoing leadership/contact duties can justify retention
 without inventing new assignments or repeatedly seeking permission after each chat.
 
+Apply closeout from completed children upward through logical ownership: TC closes
+its workers/helpers, AC closes completed TCs, and EL closes completed areas/ACs.
+Before retiring a coordinator, close its children or explicitly transfer any
+retained responsibility to a continuing owner. Ongoing work
+elsewhere in the parent scope does not justify retaining finished children without
+a named duty. This uses the existing hierarchy, not a new reorganization mechanism.
+
 Prefer replacement at a meaningful boundary, normally after live subordinate work
 has finished. Preserve references to current commits/PRs, unresolved questions,
 applicable resource policy or remaining work allowance and next action. Canonical records are the handoff; add only
@@ -145,3 +152,14 @@ removal, not force removal; preserve unique evidence or unresolved work. Local o
 remote branch deletion is a separate scoped choice. Do not remove a shared area/
 project worktree just because one occupant's duty ended. Record cleanup outcomes
 concisely in the existing closeout report, including anything deliberately retained.
+
+Within the project's cleanup grant, closeout also removes obsolete experiments,
+prototypes, superseded implementation copies and obsolete active documentation.
+Reconcile current canonical docs and references so the next assignment inherits a
+coherent current version. Retain evidence/provenance needed for acceptance,
+reproducibility, unresolved defects or explicit retention; use concise references
+and Git history instead of redundant working copies where sufficient. Preserve
+original/private user assets, active work and material another owner still needs.
+Removing supported behavior or shared contracts remains a code change subject to
+normal review/integration gates, not incidental cleanup. These rules grant no
+additional deletion authority.

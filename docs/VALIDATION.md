@@ -35,6 +35,13 @@ scope-specific review/correction, integration evidence, role release confirmatio
 shared-dev exclusive turns and closeout. It does not prove agents follow those
 instructions. Superseded instruction-update narratives are retained in Git history.
 
+The 15 October closeout coverage check clarified child-to-parent disposition and
+authorized removal of superseded working material and obsolete active docs. This
+was a requested design coverage check, not an observed cleanup failure. Behavior
+remains **UNTESTED** until real authorized closeouts exercise it; static checks do
+not establish successful retirement, preservation or cleanup. Project execution
+and cleanup remain with the project's assigned owners.
+
 ## Observed runtime evidence
 
 | Observation | Evidence and limits |
